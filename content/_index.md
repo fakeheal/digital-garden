@@ -1,30 +1,16 @@
----  
-title: 🌱 digital garden  
-enableToc: false  
----  
-# Welcome!  
-  
-I am [Ivanka](https://itodorova.dev), a full stack dev based in 🇧🇬 Bulgaria, **working @ Dineout**. This is the second iteration of my digital garden, that has, so far, helped me immensely throughout my university years. Here I keep notes on things I learn, essays, and other stuff I find interesting. Some of my writings are in _Bulgarian_, others are in _English_.  
-  
-I am using [Obsidian](https://obsidian.md) to write and organize my notes. I am also using [Quartz](https://github.com/jackyzha0/quartz) for creating this beautiful website based on the notes.   
-  
-The idea behind digital gardens is that there are no linear paths, no beginnings, no ends. It's a place to explore, to learn, to grow. However, below you will find some of my notes, in simple categories, to give you an idea of what you can find here.  
-  
-### 📚 Lectures  
-Notes on lectures from courses I've taken in New Bulgarian University, Udemy or elsewhere.
-- [[notes/computer-science/GENB005 Основи на информатиката|GENB005 Основи на информатиката]]  
-- [[notes/computer-science/CSCB315 Увод в алгоритмите и програмирането|CSCB315 Увод в алгоритмите и програмирането]]  
-- [[notes/math/CSCB315 Аналитична геометрия|CSCB315 Аналитична геометрия]]
-  
-### 🧮 Math  
-Notes on multiple branches of math, such as: #set-theory, #number-theory, #logic-and-proofs, #graph-theory, #combinatorics, #geometry, #linear-algebra 
-  
-### 💻 Programming  
-I've been learning and practicing #rust and, for university purposes, #cpp. I have saved some #algorithms on here, too.
-  
-### 📝 Essays  
-- [[notes/computer-science/Кратка история на компютинга - Текстови редактори|Кратка история на компютинга - Текстови редактори]]
+---
+title: digital garden • itodorova.dev
+enableToc: false
+---
+👋  **W**elcome to my first attempt at creating a 🌱 digital garden. 
 
-### 🎉 Hobby
+My name is [Ivanka](https://itodorova.dev) and I am currently studying **Computer Science** at [New Bulgarian University](https://nbu.bg/).
 
-I like playing #games on both #pc or #nintendo-switch, reading fantasy #books or watching #movies and #tv-shows. 
+As of now, this place is entirely consiting of computer science-y things, but my interests go beyond that topic. 
+
+A short ToC of math-related topics I took notes in my first year of study can be found below.
+
+## Discrete Mathematics
+
+- [[notes/Mathematics/Discrete Mathematics/Combinatorics/_Index_of_Combinatorics|Combinatorics]]
+- [[notes/Mathematics/Discrete Mathematics/Graph Theory/_Index_of_Graph Theory|Graph Theory]]
