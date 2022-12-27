@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: Ivanka Todorova
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -9,21 +9,20 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: false
+enableRecentNotes: true
 enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/fakeheal/digital-garden/tree/hugo/content
 search:
-  enableSemanticSearch: false
+  enableSemanticSearch: true
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  Ivanka Todorova's digital garden about computer sciency stuff
 page_title:
-  "🪴 Quartz 3.3"
+  "🪴 digital garden"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
+  - link_name: Mastodon
+    link: https://toot.community/@fakeheal
   - link_name: GitHub
-    link: https://github.com/jackyzha0
+    link: https://github.com/fake_heal

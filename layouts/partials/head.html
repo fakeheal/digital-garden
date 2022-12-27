@@ -15,15 +15,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- HTML Favicon -->
-  {{ $favicon := $data.favicon  | default $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "icon.png")) }}
-  {{ $type := (printf "%T" $favicon) }}
-  {{ if eq $type "string" }}
-  {{ $favicon | safeHTML }}
-  {{ else }}
-  {{ range $favicon }}
-  <link rel="{{.rel}}" {{if .type}}type="{{.type}}"{{end}} {{if .sizes}}sizes="{{.sizes}}"{{end}} href="{{$.Site.BaseURL}}/{{.href}}" />
-  {{- end }}
-  {{ end }}
+
+  <link rel="icon" type="image/png" href="/favicon.ico">
 
   <!-- CSS Stylesheets and Fonts -->
   {{$sass := resources.Match "styles/[!_]*.scss" }}
@@ -52,7 +45,7 @@
   {{partial "katex.html" .}}
 
   {{partial "mermaid.html" .}}
-    
+
   <script src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
   <script src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
   {{ $popover := resources.Get "js/popover.js" | resources.Fingerprint "md5" |
@@ -85,6 +78,7 @@
     const LATEX_ENABLED = {{.Site.Data.config.enableLatex}}
     const PRODUCTION = {{ hugo.IsProduction }}
     const BASE_URL = {{.Site.BaseURL}}
+    console.log("{{$linkIndex.Permalink}}");
     const fetchData = Promise.all([
           fetch("{{ $linkIndex.Permalink }}")
             .then(data => data.json())
@@ -120,7 +114,7 @@
       {{if $data.enableCallouts | default $.Site.Data.config.enableCallouts -}}
       addCollapsibleCallouts();
       {{ end }}
-     
+
       {{if $data.enableLinkPreview | default $.Site.Data.config.enableLinkPreview}}
       initPopover(
         {{strings.TrimRight "/" .Site.BaseURL }},
