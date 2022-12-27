@@ -1,4 +1,14 @@
+---
+title: Quotient remainder theorem
+enableToc: false
+tag: 
+- discrete-mathematics
+- number-theory
+- theorem
+---
+
 *Теорема за деление с остатък*
+
 
 Used when we want to prove some properties about [[notes/Mathematics/Discrete Mathematics/Number Theory/Modular Arithmetics|modular arithmetic]].
 

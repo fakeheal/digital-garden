@@ -1,3 +1,12 @@
+---
+title: Theorems (Graphs)
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- theorem
+---
+
 ![[notes/Mathematics/Discrete Mathematics/Graph Theory/Handshaking lemma]]
 
 -----
