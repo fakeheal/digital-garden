@@ -1,0 +1,1 @@
+An **undirected graph** is a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]], i. e., set of objects (called [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertices]] or nodes) that are connected together, where all the edges are bidirectional.

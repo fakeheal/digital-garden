@@ -1,0 +1,1 @@
+The eccentricity of a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertex]] $v$ in a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]] $G$, denoted $ecc(v)$, is the [[notes/Mathematics/Discrete Mathematics/Graph Theory/Walk (Graph)|distance]] from $v$ to vertex farther from $v$, denoted $ecc(v)$.

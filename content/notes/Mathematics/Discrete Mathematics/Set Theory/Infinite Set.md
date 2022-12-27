@@ -1,0 +1,1 @@
+A [[notes/Mathematics/Discrete Mathematics/Set Theory/Set|set]] with infinite number of elements $$A=\{1,2,3,4, \dots\}$$

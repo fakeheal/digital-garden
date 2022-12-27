@@ -1,0 +1,1 @@
+**Negafibonacci Sequence** is the extension of the [[notes/Mathematics/Discrete Mathematics/Number Theory/Fibonacci Sequence]] to negative integers.

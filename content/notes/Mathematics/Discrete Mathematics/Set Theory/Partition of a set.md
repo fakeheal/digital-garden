@@ -1,0 +1,1 @@
+A partition of a [[notes/Mathematics/Discrete Mathematics/Set Theory/Set|set]] is a grouping of its elements into non-empty subsets, in such a way that every element is included in exactly one [[notes/Mathematics/Discrete Mathematics/Set Theory/Subset|subset]].

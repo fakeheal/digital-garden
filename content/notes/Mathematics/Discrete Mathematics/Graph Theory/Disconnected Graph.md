@@ -1,0 +1,3 @@
+A [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]] $G$ is **disconnected** if there exists two [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertices]] in $G$ such that no [[notes/Mathematics/Discrete Mathematics/Graph Theory/Edge|edge]] in $G$ has these vertices as [[notes/Mathematics/Discrete Mathematics/Graph Theory/Endpoint|endpoint]].
+
+The opposite of a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Connected Graph]].

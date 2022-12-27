@@ -1,0 +1,1 @@
+The **radius** of a graph $G$ is the minimum [[notes/Mathematics/Discrete Mathematics/Graph Theory/Eccentricity (Vertex)|eccentricity]] of any [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertex]] in $G$.
