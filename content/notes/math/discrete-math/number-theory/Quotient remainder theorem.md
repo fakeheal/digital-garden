@@ -2,6 +2,7 @@
 title: Quotient remainder theorem
 enableToc: false
 tag: 
+- discrete-mathematics
 - number-theory
 - theorem
 ---
@@ -9,7 +10,7 @@ tag:
 *Теорема за деление с остатък*
 
 
-Used when we want to prove some properties about [[notes/math/discrete-math/number-theory/Modular Arithmetics|modular arithmetic]].
+Used when we want to prove some properties about [[notes/Mathematics/Discrete Mathematics/Number Theory/Modular Arithmetics|modular arithmetic]].
 
 Given **any** integer **A**, and **a positive** integer **B**, there exist **unique integers Q and R** such that
 
