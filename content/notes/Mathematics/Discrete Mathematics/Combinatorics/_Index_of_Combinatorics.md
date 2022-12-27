@@ -6,4 +6,4 @@ Combinatorics is the branch of mathematics studying the enumeration, combination
 
 -  [[notes/Mathematics/Discrete Mathematics/Combinatorics/Basic Counting Principles|Basic Counting Principles]]
  - [[notes/Mathematics/Discrete Mathematics/Combinatorics/Combination|Combination]]
- - [[notes/Mathematics/Discrete Mathematics/Combinatorics/Permutations|Permutations
+ - [[notes/Mathematics/Discrete Mathematics/Combinatorics/Permutations|Permutations]]
