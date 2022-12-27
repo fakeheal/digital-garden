@@ -1,3 +1,12 @@
+---
+title: Combination
+enableToc: false
+tag: 
+- discrete-mathematics
+- combinatorics
+- definition
+---
+
 The combination is selection of elements without repetition from a collection **when order doesn't matter**.
 
 

@@ -1,3 +1,11 @@
+---
+title: Bipartite Graph
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
 *двуделен граф, bigraph*
 
 A **bipartite graph** is a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]] whose vertices can be divided into two [[notes/Mathematics/Discrete Mathematics/Set Theory/Disjoint sets|disjoint]] and independent sets $U$ and $V$, that is every [[notes/Mathematics/Discrete Mathematics/Graph Theory/Edge|edge]] connectes a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertex]] in $U$ to one in $V$.

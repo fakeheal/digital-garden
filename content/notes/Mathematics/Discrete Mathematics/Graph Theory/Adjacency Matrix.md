@@ -1,4 +1,13 @@
-An **adjacency matrix** is a square matrix used to represent a finite [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph]]. The elements of the [[notes/Mathematics/Linear Algebra/Matrix|matrix]] indicate whether pairs of [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertices]] are [[notes/Mathematics/Discrete Mathematics/Graph Theory/Adjacency (Graph)|adjacent]] or not in the graph.
+---
+title: Adjacency Matrix
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
+
+An **adjacency matrix** is a square matrix used to represent a finite [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]]. The elements of the [[notes/Mathematics/Linear Algebra/Matrix|matrix]] indicate whether pairs of [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertices]] are [[notes/Mathematics/Discrete Mathematics/Graph Theory/Adjacency (Graph)|adjacent]] or not in the graph.
 
 If the graph is [[notes/Mathematics/Discrete Mathematics/Graph Theory/Undirected Graph|undirected]] the adjacency matrix is symmetric.
 

@@ -1,3 +1,11 @@
+---
+title: Vertex Connectivity
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
 *маршрут*
 
 For the [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]] $G$, and vertices $v$ and $w$, a **walk** from $v$ to $w$ is a finite alternating sequence of [[notes/Mathematics/Discrete Mathematics/Graph Theory/Adjacency (Graph)|adjacent vertices and edges]]  of $G$.

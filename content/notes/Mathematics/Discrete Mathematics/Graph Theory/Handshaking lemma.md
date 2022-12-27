@@ -1,4 +1,13 @@
+---
+title: Handshaking lemma
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- theorem
+---
 /a.k.a. the Degree Sum Formula/
+
 
 $$
 \sum_{x \in V}{d(x)} = 2 |E|

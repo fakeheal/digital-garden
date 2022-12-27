@@ -1,3 +1,12 @@
+---
+title: Basic Counting Principles
+enableToc: false
+tag: 
+- discrete-mathematics
+- combinatorics
+- definition
+---
+
 ## The Product rule
 
 Suppose that a procedure can be broken down into a sequence of two tasks. If there are $n_1$ ways to do the first task and for each of these ways of doing the first task, there are $n_2$ ways to do the second task, then there are $n_1 \cdot n_2$ ways to do the procedure.

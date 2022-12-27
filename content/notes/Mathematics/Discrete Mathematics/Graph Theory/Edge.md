@@ -1,3 +1,12 @@
+---
+title: Edge
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
+
 An **edge** is (together with [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertices]]) one of the two basic units out of which [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graphs]] are constructed. Each **edge** has two (or in [[notes/Mathematics/Discrete Mathematics/Graph Theory/Hypergraph|hypergraphs]], more) vertices to which it is attached, called its [[notes/Mathematics/Discrete Mathematics/Graph Theory/Endpoint|endpoints]]. 
 
 **Edges** may be:

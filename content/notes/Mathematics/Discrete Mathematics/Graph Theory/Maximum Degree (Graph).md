@@ -1,1 +1,9 @@
+---
+title: Maximum Degree (Graph)
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
 The **maximum degree** of a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]] $G$, denoted by $\Delta G$, is the maximum of its vertices' [[notes/Mathematics/Discrete Mathematics/Graph Theory/Degree (Vertex)|degrees]].

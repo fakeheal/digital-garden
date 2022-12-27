@@ -1,3 +1,11 @@
+---
+title: Graph
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
 A **graph** $G$ consists of two [[notes/Mathematics/Discrete Mathematics/Set Theory/Finite set|finite sets]]: 
 - a nonempty set $V(G)$ of **vertices**
 - a set $E(G)$ of **edges**,

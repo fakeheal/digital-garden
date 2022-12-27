@@ -8,15 +8,9 @@ My name is [Ivanka](https://itodorova.dev) and I am currently studying **Compute
 
 As of now, this place is entirely consiting of computer science-y things, but my interests go beyond that topic. 
 
-A short ToC of mathematic topics I took notes in my first year of study can be found below.
+A short ToC of math-related topics I took notes in my first year of study can be found below.
 
 ## Discrete Mathematics
 
-- [[notes/Mathematics/Discrete Mathematics/Set Theory/Set|Set Theory]]
-- [[notes/Mathematics/Discrete Mathematics/Number Theory/Number Patterns|Number Theory]]
-- [[notes/Mathematics/Discrete Mathematics/Combinatorics/Basic Counting Principles|Combinatorics]]
-- [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|Graph Theory]]
-
-## Linear Algebra
-
-- [[notes/Mathematics/Linear Algebra/Linear Algebra]]
+- [[notes/Mathematics/Discrete Mathematics/Combinatorics/_Index_of_Combinatorics|Combinatorics]]
+- [[notes/Mathematics/Discrete Mathematics/Graph Theory/_Index_of_Graph Theory|Graph Theory]]

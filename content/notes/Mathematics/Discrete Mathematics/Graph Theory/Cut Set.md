@@ -1,1 +1,9 @@
+---
+title: Cut Set
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
 A **cut set** is a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Disconnecting Set|disconnecting set]] such that no [[notes/Mathematics/Discrete Mathematics/Set Theory/Subset#^51fb8d|proper subset]] of that set is a disconnecting set.

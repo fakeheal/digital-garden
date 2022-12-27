@@ -1,3 +1,12 @@
+---
+title: Tree (Graph)
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
+
 If $G$ is a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]] with $n$ [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertices]]:
 
 -----

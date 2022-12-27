@@ -1,3 +1,12 @@
+---
+title: Permutations
+enableToc: false
+tag: 
+- discrete-mathematics
+- combinatorics
+- definition
+---
+
 A permutation is a mathematical technique that determines the number of possible arrangements in a set **when the order of the arrangements matters**.
 
 With repetition:

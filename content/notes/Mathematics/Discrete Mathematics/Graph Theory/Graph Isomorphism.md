@@ -1,3 +1,12 @@
+---
+title: Graph Isomorphism
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
+
 An **isomorphism** of [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graphs]] $G$ and $H$ is a [[notes/Mathematics/Discrete Mathematics/Set Theory/Bijective Function|bijection]]  between the [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertex]] [[notes/Mathematics/Discrete Mathematics/Set Theory/Set|sets]] of $G$ and $H$
 $$
 f: V(G) \longrightarrow V(H)

@@ -1,3 +1,12 @@
+---
+title: Degree (Graph)
+enableToc: false
+tags: 
+- discrete-mathematics
+- graph-theory
+- definition
+---
+
 The total degree of a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]] is the sum of the [[notes/Mathematics/Discrete Mathematics/Graph Theory/Degree (Vertex)|degree]]  of its [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertices]]. The number can be found using the [[notes/Mathematics/Discrete Mathematics/Graph Theory/Handshaking lemma]].
 
 The [[notes/Mathematics/Discrete Mathematics/Graph Theory/Handshaking lemma]] also implies that
