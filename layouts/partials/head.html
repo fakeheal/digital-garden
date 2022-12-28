@@ -45,7 +45,7 @@
   {{ $s := resources.Get $scriptname | resources.ExecuteAsTemplate $scriptname . | resources.Fingerprint "md5" | resources.Minify }}
   <script src="{{$s.Permalink}}"></script>
   {{end}}
-  {{partial "katex.html" .}}
+  {{partial "mathjax.html" .}}
 
   {{partial "mermaid.html" .}}
 
@@ -167,18 +167,6 @@
       {{if $data.enableCodeBlockTitle | default $.Site.Data.config.enableCodeBlockTitle -}}
       addTitleToCodeBlocks();
       {{- end -}}
-      {{if $data.enableLatex | default $.Site.Data.config.enableLatex}}
-      renderMathInElement(doc.body, {
-        delimiters: [
-          {left: '$$', right: '$$', display: true},
-          {left: '$', right: '$', display: false},
-        ],
-        macros: {
-          '’': "'"
-        },
-        throwOnError : false
-      });
-      {{end}}
     };
   </script>
   {{if $data.enableSPA | default $.Site.Data.config.enableSPA}}
