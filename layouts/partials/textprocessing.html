@@ -3,9 +3,10 @@
 {{ $page := .Page }}
 
 {{/* Escape slashes for Latex to fix line breaks */}}
-{{$latex := findRE "(?:\\${2}([^\\$]+)\\${2})|(?:\\$([^\\$]*)\\$)" $content}}
+{{$latex := findRE `\$\$((.|\n)+?)\$\$` $content}}
 {{range $latex}}
-  {{$fixed := replaceRE "\\\\(?: +|\\n)" "\\\\ " .}}
+  {{$fixed := plainify .}}
+  {{$fixed := replaceRE "\\\\(?: +|\\n)" "\\\\ " $fixed}}
   {{$content = replace $content . $fixed}}
 {{end}}
 

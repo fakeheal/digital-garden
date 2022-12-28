@@ -11,13 +11,11 @@ $$
 a & b \\ 
 c & d 
 \end{bmatrix} 
-+
-\begin{bmatrix}
++ \begin{bmatrix}
 e & f \\ 
 g & h 
 \end{bmatrix} 
-=
-\begin{bmatrix}
+= \begin{bmatrix}
 a + e & b + f \\ 
 c + g & d + h 
 \end{bmatrix} 

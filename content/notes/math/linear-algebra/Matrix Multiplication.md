@@ -105,8 +105,7 @@ R_{2,1} & R_{2,2}
 C_{1,1} & C_{1,2} \\ 
 C_{2,1} & C_{2,2} 
 \end{bmatrix}
-= 
-\begin{bmatrix}
+= \begin{bmatrix}
 R_{1,1}C_{1,1} + R_{1,2}C_{2,1} & R_{1,1}C_{1,2} + R_{1,2}C_{2,2} \\
 R_{2,1}C_{1,1} + R_{2,2}C_{2,1} & R_{2,1}C_{1,2} + R_{2,2}C_{2,2} \\
 \end{bmatrix}
@@ -122,8 +121,7 @@ A \cdot B =
 2 \cdot (-4) + 6 \cdot 1 & 2 \cdot (-2) + 6 \cdot 0 \\ 
 3 \cdot (-4) + (-1) \cdot 1 & 3 \cdot (-2) + (-1) \cdot 0
 \end{bmatrix} 
-= 
-\begin{bmatrix}
+= \begin{bmatrix}
 -2 &  -4\\ 
 -13 & -6
 \end{bmatrix} 

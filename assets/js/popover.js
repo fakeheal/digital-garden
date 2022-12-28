@@ -43,13 +43,7 @@ function initPopover(baseURL, useContextualBacklinks) {
         if (el) {
           li.appendChild(el)
           if (LATEX_ENABLED) {
-            renderMathInElement(el, {
-              delimiters: [
-                { left: '$$', right: '$$', display: false },
-                { left: '$', right: '$', display: false },
-              ],
-              throwOnError: false
-            })
+            // @TODO: Render Latex
           }
 
           li.addEventListener("mouseover", () => {

@@ -12,9 +12,8 @@ $$
 \begin{bmatrix}
 a & b & c \\ 
 d & f & e
-\end{bmatrix}
-=
-\begin{bmatrix}
+\end{bmatrix} 
+= \begin{bmatrix}
 0 & 0 & 0 \\ 
 0 & 0 & 0
 \end{bmatrix}

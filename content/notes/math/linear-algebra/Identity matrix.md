@@ -32,29 +32,26 @@ I_4 = \begin{bmatrix}
 \end{align}
 $$
 
-### Proof that $I$ is a square matrix
+### Proof that I is a square matrix
 
-$$
-\begin{align}
-A = 
-\begin{bmatrix}
-4 & -6 \\
-1 & 1 \\
--2 & 9
-\end{bmatrix} \\ \\
-I \cdot 
-\begin{bmatrix}
-4 & -6 \\
-1 & 1 \\
--2 & 9
-\end{bmatrix}
-= 
-\begin{bmatrix}
-4 & -6 \\
-1 & 1 \\
--2 & 9
-\end{bmatrix}
-\end{align} 
+$$  
+\begin{align}  
+A = \begin{bmatrix}  
+4 & -6 \\  
+1 & 1 \\  
+-2 & 9  
+\end{bmatrix} \\ \\  
+I \cdot  \begin{bmatrix}  
+4 & -6 \\  
+1 & 1 \\  
+-2 & 9  
+\end{bmatrix}  
+= \begin{bmatrix}  
+4 & -6 \\  
+1 & 1 \\  
+-2 & 9  
+\end{bmatrix}  
+\end{align}   
 $$
 
 The dimensions of $A$ are  $3 ×\times 2$, so let’s substitute those into the equation to get a visual picture of the dimensions.
