@@ -20,7 +20,7 @@ serve: ## Serve Quartz locally
 	rm -rf ./content && mkdir ./content
 	cp -r /Users/fakeheal/Library/Mobile\ Documents/iCloud\~md\~obsidian/Documents/Digital\ Garden/* ./content
 	hugo-obsidian -input=content -output=assets/indices -index -root=.
-	hugo server --disableFastRender --enableGitInfo --minify --bind=$(or $(HUGO_BIND),0.0.0.0) --baseURL=$(or $(HUGO_BASEURL),http://localhost) --port=$(or $(HUGO_PORT),1313) --appendPort=$(or $(HUGO_APPENDPORT),true)
+	hugo server --enableGitInfo --minify --bind=$(or $(HUGO_BIND),0.0.0.0) --baseURL=$(or $(HUGO_BASEURL),http://localhost) --port=$(or $(HUGO_PORT),1313) --appendPort=$(or $(HUGO_APPENDPORT),true)
 
 docker: ## Serve locally using Docker
 	docker run -it --volume=$(shell pwd):/quartz -p 1313:1313 ghcr.io/jackyzha0/quartz:hugo

@@ -1,10 +1,12 @@
 // Add your own CSS here!
 body {
   font-family: 'Merriweather', serif;
+  background-color: var(--light);
+  padding: 12px 24px;
 }
 
 :root {
-  --light: #faf8f8;
+  --light: #f8ebd9;
   --dark: #141021;
   --secondary: #284b63;
   --tertiary: #84a59d;
@@ -15,6 +17,7 @@ body {
   --outlinegray: #dadada;
   --million-progress-bar-color: var(--secondary);
   --highlighted: #f5dfaf88;
+  --drop-shadow: rgba(255, 255, 255, 0.6);
 }
 
 [saved-theme="dark"] {
@@ -28,10 +31,10 @@ body {
   --lightgray: #292633 !important;
   --outlinegray: #343434 !important;
   --highlighted: #574010;
+  --drop-shadow: rgba(0, 0, 0, 0.4);
 }
 
-
-[saved-theme="dark"] img {
+img.adaptable {
   display: block;
   max-width: 80%;
   padding-top: 0;
@@ -39,36 +42,32 @@ body {
   outline: none;
   margin-left: auto;
   margin-right: auto;
+}
+
+[saved-theme="dark"] img.adaptable {
   mix-blend-mode: screen;
   filter: opacity(1);
 }
 
-[saved-theme="light"] img {
-  display: block;
-  max-width: 80%;
-  padding-top: 0;
-  padding-bottom: 0;
-  outline: none;
-  margin-left: auto;
-  margin-right: auto;
+[saved-theme="light"] img.adaptable {
   mix-blend-mode: multiply;
   filter: opacity(0.95);
 }
 
 
-[saved-theme="dark"] img[src$="#invert_B"] {
+[saved-theme="dark"] img.adaptable [src$="#invert_B"] {
   filter: invert(1) hue-rotate(180deg);
 }
 
-[saved-theme="dark"] img[src$="#invert_W"] {
+[saved-theme="dark"] img.adaptable [src$="#invert_W"] {
   filter: invert(1) hue-rotate(180deg);
 }
 
-[saved-theme="dark"] img[src$="invert_B_C"] {
+[saved-theme="dark"] img.adaptable [src$="invert_B_C"] {
   filter: invert(1) hue-rotate(180deg) contrast(1.5);
 }
 
-[saved-theme="dark"] img[src$="#invert_W_C"] {
+[saved-theme="dark"] img.adaptable [src$="#invert_W_C"] {
   filter: invert(1) hue-rotate(180deg) contrast(1.45);
 }
 
@@ -83,40 +82,47 @@ img[alt="factor tree of 42"] {
  * header
  */
 header {
-  background-image: linear-gradient(to right, #ffecd2 0%, rgba(252, 182, 159, 0.82) 100%);
-  padding: 20px 10px;
+  box-shadow: 0 1px 8px var(--drop-shadow);
+  background: rgba(252, 182, 159, 0.82);
+  padding: 14px 10px;
   border-radius: 12px;
+
+  #page-title a {
+    font-size: 22px;
+    text-shadow: 4px 4px 2px var(--drop-shadow);
+    color: var(--secondary);
+  }
 }
 
 [saved-theme="dark"] header {
   background: none;
 }
 
-header .hide-on-mobile {
-  display: none;
+footer {
+  margin-top: 2em;
+  padding-bottom: 2em;
 }
 
 @media all and (min-width: 600px) {
-  header .hide-on-mobile {
-    display: inline;
+  #page-title a {
+    font-size: 28px;
   }
 }
 
-#page-title a {
-  text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.4);
-  color: var(--primary);
-}
-
-[saved-theme="dark"] #page-title a {
-  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
-}
 
 /**
  * content
  */
 .singlePage {
+  max-width: 720px;
+  margin: 0 auto;
+
   article {
-    padding: 0 2vw;
+    padding: 12px 16px;
+
+    > h1 {
+      margin: 0;
+    }
   }
 }
 
@@ -144,4 +150,88 @@ header .hide-on-mobile {
   }
 }
 
+/**
+ * icons
+ */
+.icon {
+  width: 18px;
+  height: 18px;
 
+  &.filled {
+    fill: var(--secondary);
+  }
+
+}
+
+/**
+* Rating
+*/
+.rating {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+  font-weight: bold;
+  color: var(--secondary);
+  font-size: 18px;
+
+  .icon {
+    margin-right: 4px;
+  }
+}
+
+/**
+ * Bookshelf
+ */
+.books {
+  .book {
+    text-align: center;
+    margin-bottom: 40px;
+
+    color: var(--dark);
+
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: space-around;
+      margin: 10px;
+    }
+
+    .title {
+      line-height: 32px;
+      font-weight: bold;
+    }
+
+    .cover {
+      max-width: 240px;
+      border-radius: 4px;
+      box-shadow: 4px 4px 4px var(--drop-shadow);
+    }
+
+    .author {
+      margin: 6px 0;
+      color: var(--secondary);
+      font-weight: normal;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media all and (min-width: 800px) {
+  .book {
+    display: flex;
+    text-align: left;
+
+    .cover {
+      width: 180px;
+      margin-right: 18px;
+    }
+
+    .date-completed {
+      text-align: right;
+    }
+  }
+}

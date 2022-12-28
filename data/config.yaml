@@ -10,7 +10,7 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: true
-enableGitHubEdit: false
+enableGitHubEdit: true
 enableMermaid: true
 GitHubLink: https://github.com/fakeheal/digital-garden/tree/hugo/content
 search:
