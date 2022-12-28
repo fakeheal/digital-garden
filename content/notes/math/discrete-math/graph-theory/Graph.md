@@ -11,6 +11,6 @@ A **graph** $G$ consists of two [[notes/math/discrete-math/set-theory/Finite set
 
 where each edge is associated with a set consisting of either one or two vertices called its **endpoints**.
 
-![Diagram of a Graph](notes/Mathematics/assets/graph.png#invert_B)
+![Diagram of a Graph](notes/assets/graph.png#invert_B)
 
 

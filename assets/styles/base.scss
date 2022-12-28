@@ -23,16 +23,6 @@ html {
   }
 }
 
-.singlePage {
-  padding: 0 30vw 4em 30vw;
-  @media all and (min-width: 900px) and (max-width: 1400px) {
-    padding: 0 15vw 25px 15vw;
-  }
-  @media all and (max-width: 900px) {
-    padding: 25px 2vw 25px 2vw;
-  }
-}
-
 
 body {
   margin: 0;
@@ -204,10 +194,11 @@ article {
 
     &.internal-link {
       text-decoration: none;
-      background-color: transparentize(#8f9fa9, 0.85);
+      background-color: transparentize(#8f9fa9, 0.90);
       padding: 0 0.1em;
-      margin: auto -0.1em;
+      //margin: auto -0.1em;
       border-radius: 3px;
+      border-bottom: 1px solid #8f9fa9;
 
       &.broken {
         opacity: 0.5;
