@@ -1,2 +1,0 @@
-
-A [[notes/Mathematics/Discrete Mathematics/Set Theory/Set|set]] with finite number of elements $$A = \{1,2,3,4,5\}$$. A set is finite if its [[notes/Mathematics/Discrete Mathematics/Set Theory/Equivalence|equivalent]] to the set of **Natural numbers**.

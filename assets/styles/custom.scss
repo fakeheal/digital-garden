@@ -1,4 +1,7 @@
 // Add your own CSS here!
+body {
+  font-family: 'Merriweather', serif;
+}
 
 :root {
   --light: #faf8f8;
@@ -6,8 +9,8 @@
   --secondary: #284b63;
   --tertiary: #84a59d;
   --visited: #afbfc9;
-  --primary: #f28482;
-  --gray: #4e4e4e;
+  --primary: #ffc634;
+  --gray: #2e2e2e;
   --lightgray: #f0f0f0;
   --outlinegray: #dadada;
   --million-progress-bar-color: var(--secondary);
@@ -27,5 +30,118 @@
   --highlighted: #574010;
 }
 
+
+[saved-theme="dark"] img {
+  display: block;
+  max-width: 80%;
+  padding-top: 0;
+  padding-bottom: 0;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  mix-blend-mode: screen;
+  filter: opacity(1);
+}
+
+[saved-theme="light"] img {
+  display: block;
+  max-width: 80%;
+  padding-top: 0;
+  padding-bottom: 0;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  mix-blend-mode: multiply;
+  filter: opacity(0.95);
+}
+
+
+[saved-theme="dark"] img[src$="#invert_B"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+[saved-theme="dark"] img[src$="#invert_W"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+[saved-theme="dark"] img[src$="invert_B_C"] {
+  filter: invert(1) hue-rotate(180deg) contrast(1.5);
+}
+
+[saved-theme="dark"] img[src$="#invert_W_C"] {
+  filter: invert(1) hue-rotate(180deg) contrast(1.45);
+}
+
+/**
+ resized images in notes
+ */
+img[alt="factor tree of 42"] {
+  width: 200px;
+}
+
+/**
+ * header
+ */
+header {
+  background-image: linear-gradient(to right, #ffecd2 0%, rgba(252, 182, 159, 0.82) 100%);
+  padding: 20px 10px;
+  border-radius: 12px;
+}
+
+[saved-theme="dark"] header {
+  background: none;
+}
+
+header .hide-on-mobile {
+  display: none;
+}
+
+@media all and (min-width: 600px) {
+  header .hide-on-mobile {
+    display: inline;
+  }
+}
+
+#page-title a {
+  text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.4);
+  color: var(--primary);
+}
+
+[saved-theme="dark"] #page-title a {
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
+}
+
+/**
+ * content
+ */
+.singlePage {
+  article {
+    padding: 0 2vw;
+  }
+}
+
+/**
+ * homepage tag cards
+ */
+.explore-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+
+  .path {
+    padding: 0.2em 0.5em;
+    border-radius: 12px;
+    border: var(--outlinegray) 1px solid;
+    margin: 0 9px 9px 0;
+
+    a {
+      &::before {
+        content: "#";
+        margin-right: 0.3em;
+        color: var(--outlinegray);
+      }
+    }
+  }
+}
 
 

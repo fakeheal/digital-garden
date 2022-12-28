@@ -10,11 +10,23 @@
     <article>
         {{partial "toc.html" .}}
         {{partial "textprocessing.html" . }}
+        <div>
+          <h2>Start exploring</h2>
+          <div class="explore-section">
+            {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+            <div class="path">
+              <a href={{ .RelPermalink }} title="All pages with tag {{$name}}">{{$name}} <sup>{{$cnt}}</sup></a>
+            </div>
+            {{end}}
+            {{end}}
+          </div>
+        </div>
         {{if $.Site.Data.config.enableRecentNotes}}
           {{partial "recent.html" . }}
         {{end}}
     </article>
-    {{partial "footerIndex.html" .}}
+  {{partial "contact.html" .}}
 </div>
 </body>
 </html>

@@ -1,9 +1,0 @@
----
-title: Semi Eulerian Graph
-enableToc: false
-tags: 
-- discrete-mathematics
-- graph-theory
-- definition
----
-A **separating set** of a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]] $G$ is a [[notes/Mathematics/Discrete Mathematics/Set Theory/Set|set]] of [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertices]] whose deletion [[notes/Mathematics/Discrete Mathematics/Graph Theory/Disconnected Graph|disconnects]] $G$. A graph can have multiple **separating sets**.

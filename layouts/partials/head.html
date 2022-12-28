@@ -19,6 +19,9 @@
   <link rel="icon" type="image/png" href="/favicon.ico">
 
   <!-- CSS Stylesheets and Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   {{$sass := resources.Match "styles/[!_]*.scss" }}
   {{$css := slice }}
   {{range $sass}}
@@ -78,7 +81,6 @@
     const LATEX_ENABLED = {{.Site.Data.config.enableLatex}}
     const PRODUCTION = {{ hugo.IsProduction }}
     const BASE_URL = {{.Site.BaseURL}}
-    console.log("{{$linkIndex.Permalink}}");
     const fetchData = Promise.all([
           fetch("{{ $linkIndex.Permalink }}")
             .then(data => data.json())

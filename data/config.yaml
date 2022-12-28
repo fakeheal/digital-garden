@@ -1,6 +1,6 @@
 name: Ivanka Todorova
 enableToc: true
-openToc: false
+openToc: true
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
@@ -9,7 +9,7 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: false
+enableRecentNotes: true
 enableGitHubEdit: false
 enableMermaid: true
 GitHubLink: https://github.com/fakeheal/digital-garden/tree/hugo/content
@@ -18,9 +18,9 @@ search:
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Ivanka Todorova's digital garden about computer sciency stuff
+  Ivanka Todorova's digital garden about (usually) nerdy stuff
 page_title:
-  "🪴 digital garden"
+  "digital garden"
 links:
   - link_name: Mastodon
     link: https://toot.community/@fakeheal

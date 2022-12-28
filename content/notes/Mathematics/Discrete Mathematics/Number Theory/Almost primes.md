@@ -1,1 +1,0 @@
-**Almost Prime** is a natural number that has exactly $k$ [[notes/Mathematics/Discrete Mathematics/Number Theory/Prime numbers|prime]] factors *(not necessarily distinct)*, where $k \geq 1$.

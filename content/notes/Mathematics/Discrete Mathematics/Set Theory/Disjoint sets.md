@@ -1,1 +1,0 @@
-Two [[notes/Mathematics/Discrete Mathematics/Set Theory/Set|sets]] are said to be **disjoint sets** if they have no element in common. Equivalently, two disjoint sets are sets whose [[notes/Mathematics/Discrete Mathematics/Set Theory/Intersection|intersecton]] is the [[notes/Mathematics/Discrete Mathematics/Set Theory/Empty Set]].

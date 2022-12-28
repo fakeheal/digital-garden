@@ -1,1 +1,0 @@
-A **class** is a collection of [[notes/Mathematics/Discrete Mathematics/Set Theory/Set|sets]] that can be unambiguously defined by a property that all its members share.
