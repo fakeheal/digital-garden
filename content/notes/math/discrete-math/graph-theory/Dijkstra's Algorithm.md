@@ -7,7 +7,7 @@ tags:
 ---
 **Dijkstra's Aglorithm** is used to find the shortest path between two [[notes/math/discrete-math/graph-theory/Vertex|vertices]] (nodes) in a [[notes/math/discrete-math/graph-theory/Weighted Graph|weighted graph]].
 
-![animated dijkstra algorithm](dijkstra-algorithm.gif#invert_B)
+![animated dijkstra algorithm](/notes/assets/dijkstra-algorithm.gif#invert_B)
 ## Steps
 
 Let the node at which we are starting be called the **initial node**. Let the **distance of node _Y_** be the distance from the **initial node** to _Y_. Dijkstra's algorithm will initially start with infinite distances and will try to improve them step by step.
