@@ -18,6 +18,8 @@
       {{ partial "github.html" . }}
     </p>
 
+    {{partial "textprocessing.html" .}}
+
     <h2>Reading</h2>
     <div class="books">
       {{ range $book := (where .Params.books "shelf" "Reading") }}
@@ -26,7 +28,7 @@
     </div>
     <hr>
 
-    <h2>Wish to Read</h2>
+    <h2>Want to Read</h2>
     <div class="books">
       {{ range $book := (where .Params.books "shelf" "Want to Read") }}
       {{ partial "book.html" . }}

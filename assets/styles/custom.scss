@@ -2,7 +2,7 @@
 body {
   font-family: 'Merriweather', serif;
   background-color: var(--light);
-  padding: 12px 24px;
+  padding: 4px 8px;
   font-size: 0.9em;
 }
 
@@ -88,11 +88,16 @@ header {
   background: rgba(252, 182, 159, 0.82);
   padding: 14px 10px;
   border-radius: 12px;
+  margin: 1em 0;
 
   #page-title a {
-    font-size: 22px;
+    font-size: 38px;
     text-shadow: 4px 4px 2px var(--drop-shadow);
     color: var(--secondary);
+  }
+
+  .hide-on-mobile {
+    display: none;
   }
 }
 
@@ -106,8 +111,14 @@ footer {
 }
 
 @media all and (min-width: 600px) {
-  #page-title a {
-    font-size: 28px;
+  header {
+    #page-title a {
+      font-size: 28px;
+    }
+
+    .hide-on-mobile {
+      display: inline;
+    }
   }
 }
 
@@ -185,29 +196,26 @@ footer {
  * Bookshelf
  */
 .books {
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  gap: 12px;
+  margin-top: 1em;
+
   .book {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 
     color: var(--dark);
 
-    .meta {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      justify-content: space-around;
-      margin: 10px;
-    }
-
     .title {
-      line-height: 32px;
+      margin: 0.5rem 0;
       font-weight: bold;
     }
 
     .cover {
-      max-width: 240px;
       border-radius: 4px;
       box-shadow: 4px 4px 4px var(--drop-shadow);
+      margin: 0.8em 0;
     }
 
     .author {
@@ -222,18 +230,18 @@ footer {
   }
 }
 
-@media all and (min-width: 800px) {
-  .book {
-    display: flex;
-    text-align: left;
+@media all and (min-width: 600px) {
+  .books {
+    grid-template-columns: repeat(3, 33%);
+    .book {
 
-    .cover {
-      width: 180px;
-      margin-right: 18px;
-    }
+      .cover {
+        width: 110px;
+      }
 
-    .date-completed {
-      text-align: right;
+      .date-completed {
+        text-align: right;
+      }
     }
   }
 }
