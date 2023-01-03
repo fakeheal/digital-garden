@@ -28,7 +28,7 @@ $$
 
 Multiplying a vector by a scalar is just like [[notes/math/linear-algebra/Matrix Scalar Multiplication|matrix scalar multiplication]]. For instance, if we multiply $\overrightarrow{a} = (3, 4)$ by 2, we get:
 $$
-2\overrightarrow{a} = 2 \begin{bmatrix} 3 \\ 4 \end{bmatrix} = \begin{bmatrix} 2(3) \\ 2(4) \end{bmatrix} = \begin{bmatrix} 6 \\8 \end{bmatrix}
+2\overrightarrow{a} = 2 \begin{bmatrix} 3 \\ 4 \end{bmatrix} = \begin{bmatrix} 2(3) \\ 2(4) \end{bmatrix} = \begin{bmatrix} 6 \\ 8 \end{bmatrix}
 $$
 Graphically, we can see that the resulting column vector has the same direction, but its magnitutde is scaled by the absolute value of the scalar.
 
