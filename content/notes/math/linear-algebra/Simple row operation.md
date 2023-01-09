@@ -1,6 +1,6 @@
 ---
 title: Simple row operation
-enableToc: false
+enableToc: true
 tags: 
 - linear-algebra
 ---
