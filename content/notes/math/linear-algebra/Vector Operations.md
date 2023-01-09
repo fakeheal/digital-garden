@@ -1,6 +1,6 @@
 ---
 title: Vector Operations
-enableToc: false
+enableToc: true
 tags: 
 - linear-algebra
 ---

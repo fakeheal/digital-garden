@@ -19,3 +19,5 @@ $$
 Span(\hat{i}, \hat{j}, \hat{k}) = \mathbb{R}^3
 $$
 We cannot span $\mathbb{R}^n$ with fewer than $n$ vectors.
+
+> Given **any** two linearly independent vectors, we can use them to define the entire real plane ($\mathbb{R}^2$)!

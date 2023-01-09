@@ -1,6 +1,6 @@
 ---
 title: Vector
-enableToc: false
+enableToc: true
 tags: 
 - linear-algebra
 - definition

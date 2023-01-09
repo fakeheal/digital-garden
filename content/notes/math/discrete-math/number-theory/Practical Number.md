@@ -25,4 +25,4 @@ $$
 
 1. Other than $1$ and $2$, all Practical numbers are divisible by $4$ or $6$
 2. The [[notes/math/discrete-math/number-theory/lcm]] of any two practical numbers is also a practical number
-3. The set of all practical numbers is **[[notes/math/discrete-math/number-theory/closed under...]]** multiplication
+3. The set of all practical numbers is **[[notes/math/discrete-math/number-theory/closed under]]** multiplication
