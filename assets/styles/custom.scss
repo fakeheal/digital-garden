@@ -48,7 +48,7 @@ img.adaptable {
 
 [saved-theme="dark"] img.adaptable {
   mix-blend-mode: screen;
-  filter: opacity(1);
+  filter: invert(1) hue-rotate(180deg);
 }
 
 [saved-theme="light"] img.adaptable {
@@ -57,19 +57,19 @@ img.adaptable {
 }
 
 
-[saved-theme="dark"] img.adaptable [src$="#invert_B"] {
+[saved-theme="dark"] img.adaptable[src$="invert_B"] {
   filter: invert(1) hue-rotate(180deg);
 }
 
-[saved-theme="dark"] img.adaptable [src$="#invert_W"] {
+[saved-theme="dark"] img.adaptable[src$="invert_W"] {
   filter: invert(1) hue-rotate(180deg);
 }
 
-[saved-theme="dark"] img.adaptable [src$="invert_B_C"] {
+[saved-theme="light"] img.adaptable[src$="invert_B_C"] {
   filter: invert(1) hue-rotate(180deg) contrast(1.5);
 }
 
-[saved-theme="dark"] img.adaptable [src$="#invert_W_C"] {
+[saved-theme="dark"] img.adaptable[src$="invert_W_C"] {
   filter: invert(1) hue-rotate(180deg) contrast(1.45);
 }
 
