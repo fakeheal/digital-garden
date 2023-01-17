@@ -50,11 +50,11 @@ $$
 a_1 = \begin{bmatrix} 4 & -6 & 1 & -8 & 5 \end{bmatrix},
 a_2 = \begin{bmatrix} 1 & 1 & -2 & 9 & 0 \end{bmatrix}
 $$
-Whe we look at a set of row vectors or column vectors, it's important to understand the space that the vectors occupy. There are two aspecst we want to consider: first, the space $\mathbb{R}^n$ in which the vectors lie, and second, the dimension of the "surface" or "space" formed by the vectors specifically.
+Whe we look at a set of row vectors or column vectors, it's important to understand the space that the vectors occupy. There are two aspects we want to consider: first, the space $\mathbb{R}^n$ in which the vectors lie, and second, the dimension of the "surface" or "space" formed by the vectors specifically.
 
 For instance, the given **two row vectors** above:
 - because they each have $5$ components, they are vectors in $\mathbb{R}^5$, and
-- because there are $2$ vectors, they form a two dimensioal plane in $\mathbb{R}^5$
+- because there are $2$ vectors, they form a two dimensional plane in $\mathbb{R}^5$
 
 ### Vectors can be moved
 To sketch a vector, we often start at the origin and move out to the "coordinate point" that's expressed by the vector. Placing the starting point of the vector at the origin means that you're sketching the vector in standard position.

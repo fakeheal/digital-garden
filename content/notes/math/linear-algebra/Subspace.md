@@ -14,3 +14,9 @@ To give na example, a subspace of $\mathbb{R}^2$ is a set of two-dimensional [[n
 3. The set is closed under addition
 
 > Keep in mind that the first condition, that **a subspace must include the zero vector**, is logically already included as part of the second condition, that **a subspace is closed under multiplication**.
+
+A [[notes/math/linear-algebra/Span of a vector set|span]] is always a subspace.
+
+Тhe zero vector is always a subspace.
+
+Аn entire space $\mathbb{R}^n$ is always a subspace of itself.

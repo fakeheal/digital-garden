@@ -11,4 +11,4 @@ In **two-dimensional space**, we define two specific basis vectors, $\hat{i} = (
 
 In **three-dimensional space**, the basis vectors are $\hat{i} = (1, 0, 0)$, $\hat{j} = (0, 1, 0)$, and $\hat{k} = (0, 0, 1)$.
 
-Sometimes the basis vecots can be represented without the **hat**, just as the bolded characters **i**, **j** and **k**.
+Sometimes the basis vectors can be represented without the **hat**, just as the bolded characters **i**, **j** and **k**.

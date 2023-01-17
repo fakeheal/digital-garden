@@ -15,7 +15,7 @@ The unit vector that points to a vector could be found by using:
 $$
 \vec{u} = \frac{1}{||\vec{v}||}\cdot \vec{v}$$
 
-where $||v||$ is the magntitude (length) of the $\vec{v}$. If $\vec{v}$ is an $n$-dimensional vector, then its length is the square root of te sum of all its squared components.
+where $||v||$ is the magntitude (length) of the $\vec{v}$. If $\vec{v}$ is an $n$-dimensional vector, then its length is the square root of the sum of all its squared components.
 $$
 ||\vec{v}|| = \sqrt{v_1^2+v_2^2+v_3^2 +\dots+v_n^2}$$
 
