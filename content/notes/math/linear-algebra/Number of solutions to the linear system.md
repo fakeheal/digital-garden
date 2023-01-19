@@ -4,7 +4,7 @@ enableToc: false
 tags: 
 - linear-algebra
 ---
-[[notes/math/linear-algebra/Linear systems]] can have: 
+[[notes/math/linear-algebra/Linear systems|Linear systems]] can have: 
 
 ### One solution (called _the unique solution_)
 
