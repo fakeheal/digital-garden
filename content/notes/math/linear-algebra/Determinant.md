@@ -62,6 +62,16 @@ $$
 
 [[notes/math/linear-algebra/Cramer's rule|Cramer’s rule]] is a simple little rule that lets us use determinants to solve a system of linear equations.
 
+### Lower/Upper Triangular Matrices
+
+The determinant of matrices in [[notes/math/linear-algebra/Upper and Lower triangular matrix|lower/upper triangular form]] can be found easily by multiplying the entries along the main diagonal.
+
+$$
+\begin{align}
+&A = \begin{bmatrix} -2 & 4 & 0 \\ 0 & -1 & 4 \\ 0 & 0 & -4 \end{bmatrix}\\\\ &|A| = -2 \times -1 \times -4 = -8
+\end{align}
+$$
+
 ## Modifying the determinant
 
 ### Multiplication by scalar
