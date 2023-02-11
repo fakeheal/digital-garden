@@ -11,5 +11,5 @@ Equivalently, a **forest** is an [[notes/math/discrete-math/graph-theory/Undirec
 
 **Theorem:** A [[notes/math/discrete-math/graph-theory/Graph|graph]] is a [[notes/math/discrete-math/graph-theory/Forest|forest]] if and only if each pair of distinct [[notes/math/discrete-math/graph-theory/Edge|edges]] $\{x, y\}$ there's only one [[notes/math/discrete-math/graph-theory/Path (Graphs)|path]] from $x$ to $y$.
 
-**Theorem:** A **forest** with $n$ vertices and $k$ component has $n-k$ edges.
+**Theorem:** A **forest** with $n$ vertices and $k$ components has $n-k$ edges.
 

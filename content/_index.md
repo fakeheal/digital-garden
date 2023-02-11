@@ -2,7 +2,7 @@
 title: 🌱 digital garden
 enableToc: false
 ---
-**W**elcome to my first attempt at creating a 🌱 digital garden. 
+**W**elcome to my first attempt at creating a 🪴 digital garden. 
 
 My name is [Ivanka](https://itodorova.dev) and I am currently studying **Computer Science** at [New Bulgarian University](https://nbu.bg/).
 
