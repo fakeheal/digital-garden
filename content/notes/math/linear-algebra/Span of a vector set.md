@@ -5,6 +5,8 @@ tags:
 - linear-algebra
 - definition
 ---
+*линейна обвивка*
+
 The **span** of a [[notes/math/discrete-math/set-theory/Set|set]] of [[notes/math/linear-algebra/Vector|vectors]] is the collection of all vectors which can be represented by some [[notes/math/linear-algebra/Linear combinations of the basis vectors|linear combination]] of the set.
 
 In simple terms, if you choose *absolutely* any vector, anywhere in $\mathbb{R}^2$, you can get to that vector using a linear combination of $\hat{i}$ and $\hat{j}$. And because of that, you can say specifically that $\hat{i}$ and $\hat{j}$ **span** $\mathbb{R}^2$. If a set of vectors spans a space, it means you can use a linear combination of those vectors to reach any vector in the space.

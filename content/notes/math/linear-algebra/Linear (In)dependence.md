@@ -11,6 +11,8 @@ tags:
 - Any $2$ two-dimensional linearly independent vectors will span $\mathbb{R}^3$. The two-dimensional basis vectors $\hat{i}$, $\hat{j}$ and $\hat{k}$ are linearly independent, which is why they span $\mathbb{R}^3$.
 - Any $n$ $n$-dimensional linearly independent vectors will span $\mathbb{R}^n$. The $n$-dimensional basis vectors are linearly independent, which is why they span $\mathbb{R}^n$.
 
+> There's no linear independent set that conaints the zero vector.
+
 ## Dependence
 
 - When $2$ two-dimensional vectors lie along the same line (or along parallel lines), they're called **collinear**, they're linearly dependent, and they won't span $\mathbb{R}^2$.
