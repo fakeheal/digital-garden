@@ -3,6 +3,7 @@ title: Line
 enableToc: false
 tags: 
 - geometry
+- fundamentals
 ---
 
 */line - линия; line segment - отсечка; ray - лъч; angle - ъгъл; /*
