@@ -1,6 +1,5 @@
 ---
 title: Line
-enableToc: false
 tags: 
 - geometry
 - fundamentals

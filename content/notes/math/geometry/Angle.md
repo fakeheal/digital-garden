@@ -1,6 +1,5 @@
 ---
 title: Angle
-enableToc: false
 tags: 
 - geometry
 - fundamentals
@@ -8,6 +7,7 @@ tags:
 **Angle** is a fraction of a circle. The **measure** of an angle is the size of the  "turn" (rotation) that's needed to get from the ray that forms one side of the angle to the ray that forms its other side.
 
 **Supplementary angles** are angles which have measures that add to 180$^{\circ}$.
+**Complementary angles** are angles which have measures that add to 90$^{\circ}$.
 
 **Adjacent angles** are angles that:
 - share a vertex and one ray/side
@@ -51,4 +51,6 @@ tags:
 
 ### N-gons
 
-The sum of angles in an $n$-gon is $(n-2) \times 180^{\circ}$.
+The sum of angles in an [[notes/math/geometry/Polygon|n-gon]] is $(n-2) \times 180^{\circ}$.
+
+**Polygon Exterior Angle Sum Theorem**: If a polygon is a convex polygon, then the sum of its exterior angles (one at each vertex) is equal to 360 degrees.
