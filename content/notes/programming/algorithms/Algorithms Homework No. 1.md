@@ -49,4 +49,4 @@ int main() {
 
 ### Алогиртъм на Евклид
 *схема за управление*
-![алгоритъм на Евклид](аnotes/assets/algorithms-hw-euclidean-algorithm.png#invert_W)
+![алгоритъм на Евклид](notes/assets/algorithms-hw-euclidean-algorithm.png#invert_W)
