@@ -4,9 +4,6 @@ tags:
 - algorithms
 ---
 
-**Въпроси за лекцията**: 
-- `goto/label` удовлетворява ли условието: "Без оператор за цикъл"
-
 ## Алгоритъм на Евклид без цикъл
 
 ```cpp
@@ -68,6 +65,7 @@ int main() {
     int *C = new int;  
   
     int k = 0;  
+
     while (k < digitsCount) {  
         int Sum = a[digitsCount - (k + 1)] + b[digitsCount - (k + 1)] + carry;  
         C[k] = Sum % base;  
