@@ -11,7 +11,7 @@ A **vector** has two pieces of infromation contained within it:
 
 Vector expressions:
 $$
-\overrightarrow{a} = (3, 4)
+\vec{a} = (3, 4)
 $$
 $$
 \overrightarrow{b} = (3, 4, 5)

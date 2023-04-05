@@ -3,7 +3,6 @@ title: Triangle
 enableToc: false
 tags: 
 - geometry
-- theorem
 ---
 
 A triangle is a 3-sided [[notes/math/geometry/Polygon|polygon]]. Every triangle has three sides and three [[notes/math/geometry/Angle|angles]], some of which may be the same.

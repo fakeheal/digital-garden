@@ -4,6 +4,7 @@ enableToc: false
 tags: 
 - linear-algebra
 - definition
+- geometry
 ---
 Any [[notes/math/linear-algebra/Vector|vector]] of a magnitude of $1$ is called a **unit vector**, $\overrightarrow{u}$. In general, a unit vector doesn't have to point in a particular direction. As long as the vector is one unit long, it's a unit vector.
 
