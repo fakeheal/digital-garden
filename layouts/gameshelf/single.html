@@ -20,25 +20,25 @@
 
     {{partial "textprocessing.html" .}}
 
-    <h2>Reading</h2>
+    <h2>Playing</h2>
     <div class="books">
-      {{ range $book := (where .Params.books "shelf" "Reading") }}
+      {{ range $book := (where .Params.games "shelf" "Playing") }}
       {{ partial "shelf-item.html" . }}
       {{ end }}
     </div>
     <hr>
 
-    <h2>Want to Read</h2>
+    <h2>Want to Play</h2>
     <div class="books">
-      {{ range $book := (where .Params.books "shelf" "Want to Read") }}
+      {{ range $book := (where .Params.games "shelf" "Want to Play") }}
       {{ partial "shelf-item.html" . }}
       {{ end }}
     </div>
     <hr>
 
-    <h2>Read</h2>
+    <h2>Played</h2>
     <div class="books">
-      {{ range $book := (where .Params.books "shelf" "Read") }}
+      {{ range $book := (where .Params.games "shelf" "Played") }}
       {{ partial "shelf-item.html" . }}
       {{ end }}
     </div>
