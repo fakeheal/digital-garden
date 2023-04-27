@@ -159,7 +159,7 @@ I might have outleveled some of the Pokèmons as I attempted the Elite 4 + Cynth
 	- [x] #149 - Dialga - Cannot be caught in SP, talk to Elders north of cave in Celestic Town to register it in Pokèdex
 - [x] Get [Destiny Knot](https://bulbapedia.bulbagarden.net/wiki/Destiny_Knot)
 - [ ] Catch [Ditto with Best IVs](https://www.youtube.com/watch?v=O3McZm0N3tw)
-- [ ] Use [Pokérus](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9rus)-infected pokèmon from Pokèmon Home to infect pokèmons in BDSP
+- [x] Save [Pokérus](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9rus)-infected pokèmons in boxes in Home & BDSP
 - [ ] Get **Misdreavus** ( < 50LVL) with **Mean Look** for **Mesprite**
 - [ ] Visit Ramanas Park
 - [ ] Use [Pokèradar](https://game8.co/games/Pokemon-Brilliant-Diamond-Shining-Pearl/archives/347133)
