@@ -25,7 +25,8 @@ tags:
 
 ## Log
 
-### Roster (pre-Cynthia)
+### E4 + Cynthia
+#### Roster
 
 [**Empoleon**](https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pok%C3%A9mon)) ✔️
 - [x] [Drill Peck](https://bulbapedia.bulbagarden.net/wiki/Drill_Peck_(move)) - Flying - By Leveling compatible Pokèmon 
@@ -64,9 +65,8 @@ tags:
 - [x] [Spacial Rend](https://bulbapedia.bulbagarden.net/wiki/Spacial_Rend_(move)) - Dragon 
 
 
-### Elite Four + Cynthia Log
-
-### Aaron
+#### Battle Log
+##### Aaron
  - **Charizard** > Dustox 
 	 - 1x Flamethrower
  - **Charizard** > Heracross:
@@ -81,7 +81,7 @@ tags:
 	 - 1x Fly 
 	 - 1x Hyper Beam
 
-### Bertha
+##### Bertha
 - **Staraptor** > Quagsire:
 	- 2x Brave bird
 - **Empoleon** > Sudwoodo:
@@ -97,7 +97,7 @@ tags:
 
 > Probably the hardest trainer out of the four for me.
 
-### Flint
+##### Flint
 - **Empoleon** > Rapidash:
 	- 1x Scald
 - **Charizard** > Lopunny:
@@ -109,7 +109,7 @@ tags:
 - **Charizard** > Infernape:
 	- 2x Fly
 
-### Lucian
+##### Lucian
 - **Empoleon** > Mr. Mime:
 	- 1x  Flash cannon
 - **Empoleon** > Medicham:
@@ -122,7 +122,7 @@ tags:
 - **Luxray** > Bronzong:
 	- 2x Crunch
 
-### Cynthia
+##### Cynthia
 - **Gardevoir** > Spiritomb:
 	- 2x  Dazzling gleam (+ Sitrus berry)
 - **Charizard** > Roserade:
@@ -144,21 +144,25 @@ I might have outleveled some of the Pokèmons as I attempted the Elite 4 + Cynth
 
 ![first time league champion](notes/assets/games/bdsp-league-champion-1.png)
 
+
 ## In Progress
 
-- [ ] Complete the Sinnoh Pokèdex
-	- [ ] #53 - **Combee** - Pokèmon Home (GTS)
-	- [ ] #59 - **Cherrim** - Pokèmon Home (caught in Pokèmon Go)
-	- [ ] #65 - Drifloon 
-	- [ ] #114 - Unown
-	- [ ] #115 - Riolu
-	- [ ] #135 - Lumineon
-	- [ ] #147 - Mesprit
-	- [ ] #148 - Azelf
-	- [ ] #149 - Dialga
-- [ ] Get [Destiny Knot](https://bulbapedia.bulbagarden.net/wiki/Destiny_Knot)
+- [x] Complete the Sinnoh Pokèdex
+	- [x] #53 - **Combee** - Pokèmon Home (GTS)
+	- [x] #59 - **Cherrim** - Pokèmon Home (caught in Pokèmon Go)
+	- [x] #65 - Drifloon - Pokèmon Home
+	- [x] #114 - Unown
+	- [x] #115 - Riolu - Pokèmon Home
+	- [x] #135 - Lumineon
+	- [x] #147 - Mesprit - Caught it with Haunter 48Lvl with **Mean Look & Hypnosis** 
+	- [x] #148 - Azelf - Lake Valor, use Quick and Dusk Balls
+	- [x] #149 - Dialga - Cannot be caught in SP, talk to Elders north of cave in Celestic Town to register it in Pokèdex
+- [x] Get [Destiny Knot](https://bulbapedia.bulbagarden.net/wiki/Destiny_Knot)
 - [ ] Catch [Ditto with Best IVs](https://www.youtube.com/watch?v=O3McZm0N3tw)
 - [ ] Use [Pokérus](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9rus)-infected pokèmon from Pokèmon Home to infect pokèmons in BDSP
+- [ ] Get **Misdreavus** ( < 50LVL) with **Mean Look** for **Mesprite**
+- [ ] Visit Ramanas Park
+- [ ] Use [Pokèradar](https://game8.co/games/Pokemon-Brilliant-Diamond-Shining-Pearl/archives/347133)
 - [ ] Breed something using **Ditto**
 
 
