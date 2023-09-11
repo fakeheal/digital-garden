@@ -3,6 +3,7 @@ title: "Obsidian Tips & Tricks"
 description: "Snippets that improve the experience of Obsidian without adding any plugins."
 tags: 
 - productivity
+- writing
 ---
 
 I tend to avoid as much as possible the use of libraries and plugins in my life that I am also applying it to my journey in Obsidian where possible.
