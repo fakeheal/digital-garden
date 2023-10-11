@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@800&display=swap");
-
-$pageWidth: 750px;
-$mobileBreakpoint: 600px;
-$tabletBreakpoint: 1200px;
-$sidePanelWidth: 380px;
-$topSpacing: 6rem;
-$fullPageWidth: $pageWidth + 2 * $sidePanelWidth;
+@import "variables";
 
 img {
   display: block;
@@ -123,4 +117,22 @@ hr {
 }
 .page .page-header {
   margin-top: 2.4em !important;
+}
+
+.section {
+  display: block !important;
+}
+
+.section .tags {
+  margin-left: 0 !important;
+}
+
+.section .section-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.section h3 a {
+  background: none;
 }
