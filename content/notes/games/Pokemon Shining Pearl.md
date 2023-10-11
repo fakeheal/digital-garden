@@ -2,7 +2,6 @@
 title: Pokemon Shinng Pearl
 enableToc: true
 tags:
-- entertainment
 - games
 - nintendo-switch
 ---
