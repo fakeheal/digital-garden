@@ -20,6 +20,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.MobileOnly(
+      Component.TableOfContents(),
+    )
   ],
   left: [
     Component.PageTitle(),
@@ -27,7 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(
-      Component.RecentNotes({limit: 4, seeAll: true}),
+      Component.RecentNotes({limit: 4, seeAll: true, filter: (f) => f.slug !== "index"}),
     ),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
