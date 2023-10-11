@@ -10,6 +10,7 @@ tags:
 Notation defining a set:
 
 $$A = \{1, 2, 3, 4, 5,\dots\}$$
+
 Capital letters are used for set names, elements are separated with comma and ellipsis (…) is used:
 
 -    as a shortcut for listing many elements, when in the middle for finite sets

@@ -1,7 +1,6 @@
 ---
 tags:
   - computer-science
-  - fundamentals
 title: GENB005 Основи на информатиката
 ---
 > [!info] 

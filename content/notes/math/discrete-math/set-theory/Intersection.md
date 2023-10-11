@@ -8,6 +8,7 @@ tags:
 The intersection of [[notes/math/discrete-math/set-theory/Set|sets]] $A$ and $B$ is the set containing all elements of $A$ that also belong to $B$ or equivalently, all elements of $B$ that also belong to $A$.
 
 $$A \cap B= \{x | x \in A \text{ and } b \in B\}$$
+
 *Example:*
 $A = \{1, 2, 3\}, B = \{3, 4, 5 ,6\}, A \cap B = \{3\}$
 

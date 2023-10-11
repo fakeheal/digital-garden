@@ -12,9 +12,13 @@ Given [[notes/math/discrete-math/set-theory/Set|sets]] $A$ and $B$, the cartesia
 $$A \times B = \{(a,b) | a \in A \wedge b \in B\}$$
 
 Examples: 
+
 $$A = \{1,2\}, B = \{c,d\}, A \times B = \{(1,c),(1,d),(2,c),(2,d)\}$$
+
 $$A = \{1,2\}, B = \{\$,1\}, C= \{x, y\}$$
+
 $$A \times B \times C = \{(1, \$, x), (1, \$, y), (1, !, y), (2, \$, x), (2, \$, y), (2, !, x), (2, !, y)\}$$
+
 The number of pairs is derived from multiplying the cardinality of the sets ($n(A) \times n(B)$).
 
 > **Cartesian Plane (декартова равнина)**

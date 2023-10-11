@@ -8,6 +8,7 @@ tags:
 **Proofs** are a finite sequence of claims that aim to show the truthfulness or falsehood of a statement.
 
 $$\frac{A}{\text{the  statement}} \xrightarrow{tools / way} \frac{B}{\text{the  proof}}$$
+
 **Tools:** 
 - Axioms
 - Definitions

@@ -1,7 +1,7 @@
 ---
 title: "Percy Jackson and the Olympians"
-startedOn: 2022-08-06  
-endedOn: 2022-12-28  
+tags: 
+- books
 ---
 Фентъзи поредица следващата приключенията на полубогове, деца на гръцки богове. 
 

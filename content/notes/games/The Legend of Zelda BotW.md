@@ -2,7 +2,6 @@
 title: The Legend of Zelda BotW
 enableToc: true
 tags:
-- entertainment
 - games
 - nintendo-switch
 ---

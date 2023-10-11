@@ -10,6 +10,7 @@ tags:
 The complement of [[notes/math/discrete-math/set-theory/Set|set]] $A$, often denoted by $A^c$ (or $A'$, or $\overline{A}$) is the set of elements not in $A$.
 
 $$\overline{A} = \{ x \in U \text{ | } x \notin A \}$$
+
 *Example:*
 $$A = \{1,2,3\}, U = \{1,2,5,6\}, \overline{A}=\{5,6\}$$
 
@@ -26,4 +27,5 @@ $$\overline{U} = \varnothing \text{ and } \overline{\varnothing} = U$$
 ## De Morgan's Laws
 
 $$\overline{(A \cup B)} = \overline{A} \cap \overline{B}$$
+
 $$\overline{(A \cap B)} = \overline{A} \cup \overline{B} $$

@@ -43,7 +43,8 @@ $$
 $$
 We can also find the dot product when we write the vectors as matrices. So if we wrote $\overrightarrow{a}$ as the matrix $A$ and $\overrightarrow{b}$ as the matrix $B$, then we could have written the dot product as 
 $$
-A \cdot B = \begin{bmatrix} 3 & 4 \end{bmatrix} \cdot \begin{bmatrix} -1 \\ 2 \end{bmatrix}$$
+A \cdot B = \begin{bmatrix} 3 & 4 \end{bmatrix} \cdot \begin{bmatrix} -1 \\ 2 \end{bmatrix}
+$$
 > When we express the vectors as matrices and then multiply them, it's important to multiply them as a **row matrix first**, multiplied by a **column matrix second.** 
 
 Otherwise we'd get a result that is completely different from the dot product of the two vectors.

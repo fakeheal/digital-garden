@@ -2,7 +2,6 @@
 title: "Max: The curse of brotherhood"
 enableToc: true
 tags:
-- entertainment
 - games
 - nintendo-switch
 ---

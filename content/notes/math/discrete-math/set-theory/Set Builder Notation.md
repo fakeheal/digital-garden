@@ -10,5 +10,7 @@ tags:
 Examples of writing [[notes/math/discrete-math/set-theory/Set|set]] definitions:
 
 $$A = \{ x | x < 0 \}$$
+
 $$A = \{ x \in R | -2 < x <5 \}$$
+
 $$ A = \{ x \in R | x^2 = 4 \}$$

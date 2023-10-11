@@ -16,4 +16,5 @@ $$
 $$
 Which means we can define a new notation to express a vector:
 $$
-\vec{a} = (6, 4) = 6 \cdot \hat{i} + 4 \cdot \hat{j}$$
+\vec{a} = (6, 4) = 6 \cdot \hat{i} + 4 \cdot \hat{j}
+$$

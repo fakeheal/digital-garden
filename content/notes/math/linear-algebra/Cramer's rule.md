@@ -7,7 +7,8 @@ tags:
 
 The rule says that you can solve for any variable in the system by calculating
 $$
-\frac{D_v}{D}$$
+\frac{D_v}{D}
+$$
 where $D_v$ is the determinant of the coefficient matrix with the answer column values in the variable column you're trying to solve, and where $D$ is the determinant of the coefficient [[notes/math/linear-algebra/Matrix|matrix]].
 
 Which means that if we want to find $x$ and $y$ we need to find $D_x/D$ and $D_y/D$ respectively.
