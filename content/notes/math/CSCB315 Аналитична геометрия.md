@@ -1,0 +1,211 @@
+---
+title: CSCB315 Аналитична геометрия
+enableToc: true
+tags: 
+- fundamentals
+- geometry
+---
+
+## Вектор
+
+> $\cos{90^o}  = 0$
+> $\sin{90} = 1$ 
+> $\cos{\alpha} > 0$ - остър ъгъл, $\cos{\alpha} < 0$ - тъп ъгъл,  $\cos{\alpha} = 0$ - прав ъгъл
+> 
+
+### Дефиниция
+
+Насочена отсечка, вектор $\vec{AB}$ наричаме наредена двойка точки $A$ и $B$. $A$ се нарича начало, а $B$ - край на отсечката. Ако $A = B$ - отсечката се нарича *нулева*.
+
+
+### Равенство
+
+$\vec{AB} = \vec{CD}$ са равни, ако: 
+- имат равни дължини 
+- са еднопосочно [[notes/math/linear-algebra/Linear (In)dependence|колинеарни]].
+
+$\vec{AB} = \vec{AB}$ и $\vec{AB} = \vec{CD}, \vec{EF} = \vec{CD} \implies \vec{AB} = \vec{EF}$
+
+### Свободен вектор
+
+Множеството от всички равни по между си насочени отсечки наричаме свободен вектор. Свободния вектор е [[notes/math/discrete-math/set-theory/Equivalence Class|клас от еквивалентни]] насочени отсечки.
+
+### Сума на вектори
+
+- $u + v = v + u$
+- $u + 0 = u$
+- $-v \implies v + (-v) = 0$
+- $u + (v + w) = (u + v) + w$
+
+![сума на вектори](/notes/assets/vector-sum.png#invert_W_C)
+
+-----
+$A = (6, 3), B = (7, 6), G = (7, 3)$
+
+$$
+\vec{AB} = \vec{AG} + \vec{GB} = (X_B - X_A)i + (Y_B-Y_A)j = 
+\begin{bmatrix}
+X_B - X_A \\
+Y_B - Y_A
+\end{bmatrix}
+$$
+$i, j$ са [[notes/math/linear-algebra/Unit Vector|единичните вектори]].
+
+![сума на вектори](/notes/assets/vector-sum-2.png#invert_W_C)
+
+-----
+
+$$
+u = \begin{bmatrix} a \\ b\end{bmatrix};
+v = \begin{bmatrix} c \\ d \end{bmatrix}; 
+u + v = \begin{bmatrix} a + c \\ b+ d\end{bmatrix}
+$$
+![сума на вектори](/notes/assets/vector-sum-3.png#invert_W_C)
+
+### Умножение на вектор с число
+
+$$
+u = \begin{bmatrix} a \\ b\end{bmatrix}; v = \lambda{u} = \begin{bmatrix} \lambda{a} \\ \lambda{b} \end{bmatrix}
+$$
+![сума на вектори](/notes/assets/vector-scalar-multiplication.png#invert_W)
+### Дължина на вектор
+
+$$
+u = \begin{bmatrix} a \\ b \end{bmatrix}$$
+$$
+|u| = \sqrt{a^2 + b^2}
+$$
+- $|u| = 0 \iff u = 0$
+- $|\lambda{u}| = |\lambda||u|$
+- $| u + v | \leq |u| + |v|$ - [[notes/math/geometry/Thales's theorem|теорема на Талес]]
+
+
+$$
+u = |u|\frac{u}{|u|}$$
+$\frac{u}{|u|} - \text{посока на вектора с единична дължина}$
+
+
+### Скаларно произведение
+
+$$
+u \cdot v = |u||v|\cos{\alpha}
+$$
+
+![скаларно произведение на вектори](/notes/assets/vector-dot-product.png#invert_W_C)
+
+#### Теорема 1
+
+$$
+u \cdot v = u_1v_1 + u_2v_2 + u_3v_3...+u_nv_n = \sum_{i=1}^n{u_iv_i}$$
+
+Ако векторите са представени като вектор-стълб, скаларното произведение може да бъде записано и като умножение на матриците:
+$$
+u \cdot v = u^T v$$
+където $u^T$ е транспонирания вектор-стълб $u$.
+
+$$
+\begin{bmatrix} u_1 & u_2 & u_3 \end{bmatrix}\cdot\begin{bmatrix}v_1 \\ v_2 \\ v_3 \end{bmatrix} = u_1v_1 + u_2v_2 + u_3v_3
+$$
+#### Теорема 2
+
+$$
+u \cdot v = |u| |vPu|$$
+
+$$
+vPu = (\frac{u \cdot v}{|u|^2})u
+$$
+
+$vPu$  или $proj_\vec{v} \vec{u}$- $v$ проектирано върху $u$
+
+> **Важно!**
+>  $u \cdot v$ и $|u|$ са [[notes/math/Scalar|скалари]], т.е. може да сCе разглежда, че проекцията е част (fraction) от вектора върху, който проектираме.
+
+![вектор v проектиран върху u](/notes/assets/vector-vPu.png#invert_W_C)
+
+#### Теорема 3
+
+$$u \cdot v = 0 \iff u \perp v$$
+
+#### Свойства
+
+- $u \cdot v = v \cdot u$
+- $u \cdot (v + w) = u \cdot v + u \cdot w$
+- $a(u \cdot v) = (au) \cdot v = u \cdot (av)$
+- $u \cdot u \geq 0$
+
+### Векторно произведение
+
+#### Дефиниция
+
+$u \times v$ наричаме вектор, перпендикулярен на $u$ и $v$ и ориентиран по правилото на дясната ръка с дължина равна на лицето на успоредника, образуван от $u$ и $v$.
+
+
+$$
+|u \times v| = |u||v|\sin{\alpha}
+$$
+![векторно произведение](notes/assets/vector-cross-product.png#invert_B)
+
+### Свойства
+- $u \times v = -v \times u$
+- $u \times (v+w) = u \times v + u \times w, (u + v) \times w = u \times w + v \times w$
+- $a(u \times v) = (au) \times v = a \times (av)$
+- $u \times 0 = u \times u = 0$
+
+> **Important**! Technically any two vectors that are not parallel to one another constitute a 2-D plane. The cross product then falls into a third dimension that is perpendicular to both of these vectors. However, **you cannot cross product two 2-D vectors and have the resulting cross product also appear in the same 2-D space**.
+
+### Теорема 1
+
+$$
+u \parallel v \iff u \times v = 0
+$$
+
+> **Поясниение:** Ако векторите са успоредни, то $\sin{\alpha} = 0$ и $u \times v = 0$, заради: $|x \times v| = |u||v|\sin{\alpha}$.
+
+#### Следствие
+
+$$
+u = u_1j + u_2j + u_3k; v = v_1i + v_2j + v_3k;$$
+$$
+u \parallel v \iff u_1 : u_2 : u_3 = v_1 : v_2 : v_3
+$$
+
+## Смесено произведение
+
+### Дефиниция
+
+$$
+(u \times v) \cdot w
+$$
+
+#### Теорема 1
+
+Паралелепипедът, определен от векторитe $u, v, w$, има обем
+$$
+V = |(u \times v) \cdot w|$$
+
+#### Теорема 2 
+
+Тетраедърът, определен от векторите $u, v, w$, има обем
+$$
+V = \frac{1}{6}|(u \times v) \cdot w|
+$$
+
+#### Свойства
+
+- $(u\times v)\cdot w = (v \times w) \cdot u = (w \times u) \cdot v$
+- $(u \times v) \cdot w = u \cdot (v \times w)$
+- $(u \times v) \cdot w = 0 \iff \text{лежат в една равнина}$
+
+
+#### Теорема 3
+
+$$
+u = u_1i + u_2j + u_3k; v = v_1i + v_2j + v_3k; w = w_1i + w_2j +w_3k
+$$
+
+$$
+(u \times v) \cdot w = \det \begin{bmatrix} u_1 & u_2 & u_3 \\ v_1 & v_2 & v_3 \\ w_1 & w_2 & w_3\end{bmatrix}
+$$
+
+
+

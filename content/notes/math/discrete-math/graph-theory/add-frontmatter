@@ -1,0 +1,20 @@
+<?php
+
+$files = glob('./*.md');
+foreach($files as $file) {
+	$name = substr(basename($file), 0, -3);
+	$content = file_get_contents($file);
+
+	$frontMatter = <<<TEXT
+---
+title: $name
+enableToc: false
+tags:
+- graph-theory
+- definition
+---
+TEXT;
+
+	file_put_contents($file, $frontMatter."\n".$content);
+}
+
