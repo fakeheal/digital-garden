@@ -15,6 +15,7 @@ Notes on lectures from courses I've taken in New Bulgarian University, Udemy or 
 - [[notes/computer-science/GENB005 Основи на информатиката|GENB005 Основи на информатиката]]  
 - [[notes/computer-science/CSCB315 Увод в алгоритмите и програмирането|CSCB315 Увод в алгоритмите и програмирането]]  
 - [[notes/math/CSCB315 Аналитична геометрия|CSCB315 Аналитична геометрия]]
+- [[notes/hardware/GENB004B Електроника|GENB004B Електроника]]
   
 ### 🧮 Math  
 Notes on multiple branches of math, such as: #set-theory, #number-theory, #logic-and-proofs, #graph-theory, #combinatorics, #geometry, #linear-algebra 

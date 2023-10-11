@@ -5,7 +5,9 @@ tags:
   - fruit
 ---
 
-Записки от курс ["CSCB214 Увод в алгоритмите и програмирането" към НБУ](https://ecatalog.nbu.bg/default.asp?V_Year=2023&YSem=2&Mod_ID=&Spec_ID=&PageShow=programpresent&P_Menu=courses_part1&Fac_ID=3&M_PHD=0&P_ID=832&TabIndex=1&l=0).
+> [!info]
+> 
+> Записки от лекции по ["CSCB214 Увод в алгоритмите и програмирането" към НБУ](https://ecatalog.nbu.bg/default.asp?V_Year=2023&YSem=2&Mod_ID=&Spec_ID=&PageShow=programpresent&P_Menu=courses_part1&Fac_ID=3&M_PHD=0&P_ID=832&TabIndex=1&l=0), водени от проф. д-р Велина Славова и гл. ас. д-р Филип Андонов.
 
 ## Общи
 
