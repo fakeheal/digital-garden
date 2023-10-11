@@ -5,7 +5,9 @@ tags:
   - fruit
 title: GENB005 Основи на информатиката
 ---
-> Информацията е взета от лекции по ["GENB005 Основи на информатиката" в НБУ](https://ecatalog.nbu.bg/default.asp?V_Year=2023&YSem=1&Spec_ID=&Mod_ID=&PageShow=coursepresent&P_Menu=courses_part1&Fac_ID=3&M_PHD=0&P_ID=832&TabIndex=1&K_ID=29638&K_TypeID=25&l=0) водени от доц. д-р Петя Асенова.
+> [!info] 
+> 
+> Записки от лекции по ["GENB005 Основи на информатиката" в НБУ](https://ecatalog.nbu.bg/default.asp?V_Year=2023&YSem=1&Spec_ID=&Mod_ID=&PageShow=coursepresent&P_Menu=courses_part1&Fac_ID=3&M_PHD=0&P_ID=832&TabIndex=1&K_ID=29638&K_TypeID=25&l=0), водени от доц. д-р Петя Асенова.
 
 ## Компютри с фон Нойманова архитектура
 ### Компютърна архитектура

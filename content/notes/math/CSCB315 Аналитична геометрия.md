@@ -6,6 +6,10 @@ tags:
 - geometry
 ---
 
+> [!info]
+> 
+> Записки от лекциите по ["CSCB315 Аналитична геометрия"](https://ecatalog.nbu.bg/default.asp?V_Year=2023&YSem=2&Spec_ID=&Mod_ID=&PageShow=coursepresent&P_Menu=courses_part1&Fac_ID=3&M_PHD=0&P_ID=832&TabIndex=1&K_ID=36368&K_TypeID=10&l=0), водени от доц. д-р Димитър Атанасов.
+
 ## Вектор
 
 > $\cos{90^o}  = 0$
