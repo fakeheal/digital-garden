@@ -2,7 +2,6 @@
 tags:
   - computer-science
   - fundamentals
-  - fruit
 title: GENB005 Основи на информатиката
 ---
 > [!info] 

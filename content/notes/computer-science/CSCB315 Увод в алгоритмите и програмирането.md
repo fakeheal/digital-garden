@@ -2,7 +2,6 @@
 title: CSCB315 Увод в алгоритмите и програмирането
 tags:
   - algorithms
-  - fruit
 ---
 
 > [!info]
