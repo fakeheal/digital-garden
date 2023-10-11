@@ -1,1 +1,42 @@
-// put your custom CSS here!
+img {
+  display: block;
+  max-width: 80%;
+  padding-top: 0;
+  padding-bottom: 0;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+[saved-theme="dark"] img {
+  mix-blend-mode: screen;
+}
+
+[saved-theme="light"] img {
+  mix-blend-mode: multiply;
+  filter: opacity(0.95);
+}
+
+
+[saved-theme="dark"] img[src$="invert_b"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+[saved-theme="dark"] img[src$="invert_w"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+[saved-theme="light"] img[src$="invert_b_c"] {
+  filter: invert(1) hue-rotate(180deg) contrast(1.5);
+}
+
+[saved-theme="dark"] img[src$="invert_w_c"] {
+  filter: invert(1) hue-rotate(180deg) contrast(1.45);
+}
+
+/**
+ resized images in notes
+ */
+img[alt="factor tree of 42"] {
+  width: 200px;
+}

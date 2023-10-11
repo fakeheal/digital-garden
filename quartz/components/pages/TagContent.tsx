@@ -22,6 +22,7 @@ function TagContent(props: QuartzComponentProps) {
     allFiles.filter((file) =>
       (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag),
     )
+    .filter(file => file.slug !== "index")
 
   const content =
     (tree as Root).children.length === 0

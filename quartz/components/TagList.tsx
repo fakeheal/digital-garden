@@ -2,6 +2,9 @@ import { pathToRoot, slugTag } from "../util/path"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 function TagList({ fileData, displayClass }: QuartzComponentProps) {
+  if (fileData.slug === "index") {
+    return <></>
+  }
   const tags = fileData.frontmatter?.tags
   const baseDir = pathToRoot(fileData.slug!)
   if (tags && tags.length > 0) {
