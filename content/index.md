@@ -16,6 +16,7 @@ Notes on lectures from courses I've taken in **New Bulgarian University**, **Ude
 - [[notes/computer-science/CSCB315 Увод в алгоритмите и програмирането|CSCB315 Увод в алгоритмите и програмирането]]
 - [[notes/math/CSCB315 Аналитична геометрия|CSCB315 Аналитична геометрия]]
 - [[notes/hardware/GENB004B Електроника|GENB004B Електроника]]
+- [[notes/computer-science/CSCB008 Компютърни архитектури|CSCB008 Компютърни архитектури]]
 - [[notes/computer-science/CSCB007 Операционни системи|CSCB007 Операционни системи]]
 - [[notes/math/GENB045 Математически анализ|GENB045 Математически анализ]]
 

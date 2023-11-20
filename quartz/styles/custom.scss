@@ -39,14 +39,11 @@ img {
 /**
  resized images in notes
  */
+img[alt="правоъгълен триъгълник със страни a,b,c и ъгъл тета"],
+img[alt="Илюстрация на късо съеденинение"],
+img[alt="Закон на Ом зависмости"],
 img[alt="factor tree of 42"] {
   width: 200px;
-}
-
-img[alt="диаграма на архитектурата на ОС"],
-img[alt="правоъгълен триъгълник със страни a,b,c и ъгъл тета"] {
-  width: 400px;
-  margin: 0 auto;
 }
 
 .left {

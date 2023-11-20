@@ -1,14 +1,14 @@
----
+x---
 title: GENB045 Математически анализ
 enableToc: true
-tags: 
+tags:
 - fundamentals
 - calculus
 ---  
 
-> [!info]  
->   
-> Записки от лекциите по ["CSCB315 Аналитична геометрия"](https://ecatalog.nbu.bg/default.asp?V_Year=2021&YSem=4&Spec_ID=&Mod_ID=&PageShow=coursepresent&P_Menu=courses_part1&Fac_ID=3&M_PHD=0&P_ID=2206&TabIndex=1&K_ID=35172&K_TypeID=82&l=0), водени от проф. д-р Марин Маринов.  
+> [!info]
+>
+> Записки от лекциите по ["CSCB315 Аналитична геометрия"](https://ecatalog.nbu.bg/default.asp?V_Year=2021&YSem=4&Spec_ID=&Mod_ID=&PageShow=coursepresent&P_Menu=courses_part1&Fac_ID=3&M_PHD=0&P_ID=2206&TabIndex=1&K_ID=35172&K_TypeID=82&l=0), водени от проф. д-р Марин Маринов.
 
 ## Лекция №1
 
@@ -44,10 +44,10 @@ $$
 
 ### Принцип за непрекъснатост
 1. Всяко непразно множество от реални числа, което е ограничено отгоре, притежава точна граница.
-*Еквивалентно:*
+   *Еквивалентно:*
 2. Всяко непразно множество от реални числа, което е ограничено отдолу, притежава точна долна граница.
 
-> [!info] Теорема 1 (Кантор). 
+> [!info] Теорема 1 (Кантор).
 > Нека е дадена една безкрайна редица от крайни, затворени интервали:
 > $$
 > [a_1; b_1] \supseteq [a_2;b_2] \supseteq \dots \supseteq [a_n; b_n] \supseteq \dots
@@ -72,7 +72,7 @@ $$ctg(\theta) = \frac{cos(\theta)}{sin(\theta)}  = \frac{\text{прилежащ 
 ![правоъгълен триъгълник със страни a,b,c и ъгъл тета](notes/assets/math-analysis-triangle-with-right-angle.png#invert_B)
 
 $$
-sin^2(\theta) = \frac{b^2}{c^2}, 
+sin^2(\theta) = \frac{b^2}{c^2},
 cos^2(\theta) = \frac{a^2}{c^2}
 $$
 
@@ -80,7 +80,7 @@ $$
 sin^2(\theta) + cos^2(\theta) = \frac{b^2}{c^2} + \frac{a^2}{c^2} = \frac{b^2 + c^2}{c^2}
 $$
 
-От [[notes/math/geometry/Pythagorean theorem|Питагоровата теорема]] следва, че 
+От [[notes/math/geometry/Pythagorean theorem|Питагоровата теорема]] следва, че
 
 $$
 \frac{b^2 + c^2}{c^2} = \frac{c^2}{c^2} = 1
@@ -159,5 +159,29 @@ $$
 > \end{equation}
 > $$
 > Равенствата се наричат *формули за съкращения*.
-> 
+>
 
+## Лекция №3
+
+###  Граница на числова редица
+
+> [!info] Определение I.
+> Числото $l$ се нарича *граница* на редицата $\{y_n\}$, когато за всяко $\varepsilon > 0$ съществува такова число $\nu$, че за всяко естествено число $n > \nu$ е изпълнено $|y_n- l| < \varepsilon$.
+> Означаваме ${\displaystyle\lim_{n \to \infty}{y_n} = l}$.
+
+
+> [!info] Определение II.
+> Числото $l$  се нарича *граница* на редицата $\{y_n\}$, когато за всяко $\varepsilon > 0$ извън интервала $(l - \varepsilon, l + \varepsilon)$ има най-много краен брой членове на $\{y_n\}$.
+
+Числовата редица $\{y_n\}$ се нарича *сходяща*, когато притежава граница.
+
+**Пример 1.** Числовата редица $\frac{1}{n}$ е сходяща с граница $l = 0$. (колкото повече увеличаваме $n$, толкова по-малка е стойността на елемент от редицата)
+
+*Решение:* Нека $\varepsilon > 0$. Определяме $\nu = \frac{1}{\varepsilon}$. Тогава $\forall n > \nu$ е изпълнено
+$$
+|\frac{1}{n} - 0| = \frac{1}{n} < \frac{1}{\nu}=\frac{1}{\frac{1}{\varepsilon}} = \varepsilon
+$$
+
+$$
+{((n^2 + 3n + 2)/(n^7 - 2)^{1/3} * (n^7 - 2)^{1/3}) / ((n^7 - 2)^{1/3}/(n^7 - 2)^{1/3} + 1)}
+$$
