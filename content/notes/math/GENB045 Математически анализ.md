@@ -14,33 +14,23 @@ tags:
 
 ### Наредба на реалните числа
 
-#### Максимум
-$$
-a = max\{X\}, \text{ когато } a \in X \text{ за } \forall x \in X : a \geq x
-$$
+#### Максимум / Минимум
 
-#### Минимум
-$$
-a = min\{X\}, \text{ когато } a \in X \text{ за } \forall x \in X : a \leq x
-$$
+$a = max\{X\}$,  когато $a \in X$ за  $\forall x \in X : a \geq x$
+$a = min\{X\}$,  когато $a \in X$ за  $\forall x \in X : a \leq x$
 
 #### Горна граница на $X$
 
-$$
-a \text{ е горна граница на } X, \text{ когато за }  \forall x \in X:a\geq x
-$$
+$a$ е горна граница на $X$, когато за $\forall x \in X:a \geq x$
 
 #### Супремум (точна горна граница)
 
-$$
-a = sup\{X\}, \text{ когато } a \text{ е най-малката горна граница на } X
-$$
+$a = sup\{X\}$, когато $a$ е най-малката горна граница на $X$
 
 #### Инфимум (точна долна граница)
 
-$$
-a = inf\{X\}, \text{ когато } a \text{ е най-голямата долна граница на } X
-$$
+
+$a = inf\{X\}$, когато $a$ е най-голямата долна граница на $X$
 
 ### Принцип за непрекъснатост
 1. Всяко непразно множество от реални числа, което е ограничено отгоре, притежава точна граница.
@@ -62,8 +52,11 @@ $$
 ### Синус и Косинус
 
 $$sin(\theta) = \frac{\text{срещулежащ катет}}{\text{хипотенуза}}$$
+
 $$cos(\theta) = \frac{\text{прилежащ катет}}{\text{хипотенуза}}$$
+
 $$tg(\theta) = \frac{sin(\theta)}{cos(\theta)} = \frac{\text{срещулежащ катет}}{\text{прилежащ катет}}$$
+
 $$ctg(\theta) = \frac{cos(\theta)}{sin(\theta)}  = \frac{\text{прилежащ катет}}{\text{срещулежащ катет}} $$
 
 
@@ -91,19 +84,15 @@ $$
 ![правоъгълен триъгълник със страни a,b,c и ъгъл тета](notes/assets/math-analysis-sin-cos-complementary-angle.png#invert_B)
 
 $$
-sin(\theta) = \frac{b}{c} = cos(90\textdegree-\theta) = \frac{b}{c}
-$$
-
-$$
+\begin{align}
+sin(\theta) = \frac{b}{c} = cos(90\textdegree-\theta) = \frac{b}{c}\\
+\\
 cos(\theta) = \frac{a}{c} = sin(90\textdegree - \theta) = \frac{a}{c}
-$$
-
-$$
-tg(\theta) = ctg(90\textdegree - \theta) = \frac{b}{a}
-$$
-
-$$
+\\
+tg(\theta) = ctg(90\textdegree - \theta) = \frac{b}{a} \\
+\\
 ctg(\theta) = tg(90\textdegree - \theta) = \frac{a}{b}
+\end{align}
 $$
 
 За произволни числа $\alpha$ и $\beta$ са в сила равенствата:
