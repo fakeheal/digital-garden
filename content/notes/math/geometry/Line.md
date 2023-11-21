@@ -1,6 +1,6 @@
 ---
 title: Line
-tags: 
+tags:
 - geometry
 - fundamentals
 ---
@@ -11,12 +11,12 @@ When two **rays** share a **point** they form an **angle**.
 
 ## Slope
 
-A **slope** of a line is the change in $y$ coordinate ($\Delta{y}$) with respect to to the cahnge in $x$ coordinate ($\Delta{x}$).
+A **slope** of a line is the change in $y$ coordinate ($\Delta{y}$) with respect to to the change in $x$ coordinate ($\Delta{x}$).
 
 To find the slope of $A = (x_1, y_1)$ and $B = (x_2, y_2)$
 
 $$
-m = \frac{y_1 - y_2} {x_1 - x_2} 
+m = \frac{y_1 - y_2} {x_1 - x_2}
 $$
 
 If the slope of a line is *zero*, then the line is perfectly horizontal.
@@ -40,7 +40,8 @@ If the slope of one line is the negative and reciprocal of the another line, the
 The distance between two points in the second dimension can be found using:
 
 $$
-d = \sqrt{\Delta{x}^2 + \Delta{y}^2}$$
+d = \sqrt{\Delta{x}^2 + \Delta{y}^2}
+$$
 ### In three-dimension
 
 $$
