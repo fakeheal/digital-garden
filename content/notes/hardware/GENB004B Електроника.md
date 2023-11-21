@@ -73,7 +73,7 @@ $$
 - $l$ - дължината на образеца \[$m$\]
 - $S$ - сечението на образеца \[$m^2$\]
 
-![Специфично електрическо съпротивление илюстрация](../assets/electronics-resistance.png#invert_B)
+![Специфично електрическо съпротивление илюстрация](notes/assets/electronics-resistance.png#invert_B)
 
 $$
 \begin{align}
