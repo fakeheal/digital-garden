@@ -1,1 +1,0 @@
-- SS Anne has a room for resting/healing Pokemon - [guide](https://guidestrats.com/pokemon-frlg-walkthrough-part-6/)
