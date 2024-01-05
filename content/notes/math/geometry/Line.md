@@ -1,6 +1,6 @@
 ---
 title: Line
-tags:
+tags: 
 - geometry
 - fundamentals
 ---
@@ -16,7 +16,7 @@ A **slope** of a line is the change in $y$ coordinate ($\Delta{y}$) with respect
 To find the slope of $A = (x_1, y_1)$ and $B = (x_2, y_2)$
 
 $$
-m = \frac{y_1 - y_2} {x_1 - x_2}
+m = \frac{y_1 - y_2} {x_1 - x_2} 
 $$
 
 If the slope of a line is *zero*, then the line is perfectly horizontal.
