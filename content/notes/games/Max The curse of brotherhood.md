@@ -6,7 +6,7 @@ tags:
 - nintendo-switch
 ---
 
-![the legend of zelda breath of the wild cover](notes/assets/games/max-the-curse-of-brotherhood.jpg)
+![max the curse of brotherhood cover](notes/assets/games/max-the-curse-of-brotherhood.jpg)
 
 ## Review
 
@@ -16,6 +16,6 @@ tags:
 - Final boss battle was **awesome**
 
 ### Dislikes
-- Story was kind of overlooked, although great
+- Story was kind of overlooked
 - Kind of short
 - Some challenges required lots of speed and coordination 
