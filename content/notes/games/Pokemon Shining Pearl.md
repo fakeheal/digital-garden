@@ -1,5 +1,5 @@
 ---
-title: Pokemon Shinng Pearl
+title: Pokemon Shining Pearl
 enableToc: true
 tags:
 - games
@@ -100,6 +100,7 @@ I might have outleveled some of the Pokèmons as I attempted the Elite 4 + Cynth
 - [x] Use [Pokèradar](https://game8.co/games/Pokemon-Brilliant-Diamond-Shining-Pearl/archives/347133)
 - [x] Catch [Ditto with Best IVs](https://www.youtube.com/watch?v=O3McZm0N3tw)
 - [x] Breed something using **Ditto**
+- [ ]  Catch Arceus (encounter unlocked with finishing Pokemon Legends: Arceus)
 
 
 ## Resources

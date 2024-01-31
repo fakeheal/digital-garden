@@ -20,6 +20,7 @@ Notes on lectures from courses I've taken in **New Bulgarian University**, **Ude
 - [[notes/computer-science/CSCB008 Компютърни архитектури|CSCB008 Компютърни архитектури]]
 - [[notes/math/GENB045 Математически анализ|GENB045 Математически анализ]]
 - [[notes/math/CSCB030 Линейна алгебра и геометрия със система за символно смятане|CSCB030 Линейна алгебра и геометрия със система за символно смятане]]
+- [[notes/programming/CSCB324 Състезателно програмиране - I част|CSCB324 Състезателно програмиране - I част]]
     
 ### 🧮 Math
 Notes on multiple branches of math, such as: #set-theory, #number-theory, #logic-and-proofs, #graph-theory, #combinatorics, #geometry, #linear-algebra   

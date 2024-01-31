@@ -24,3 +24,18 @@ $$
 
 \end{flalign}
 $$
+
+
+**C++**
+
+```cpp
+int gcd(int a,int b) {
+  int swap;
+  while ((a % b) > 0)  {
+    swap = a % b;
+    a = b;
+    b = swap;
+  }
+  return b;
+}
+```

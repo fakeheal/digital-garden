@@ -36,3 +36,21 @@ $$
 > - if there are infinite number of perfect numbers
 > - if there are any odd perfect numbers
 
+**C++**:
+
+```cpp
+int n = 1000;
+int sum;
+
+for (int i = 1; i < n; i++)
+{
+    sum = 0;
+    for (int j = 1; j < i / 2; j++)
+    {
+        if (i % j == 0)
+            sum = sum + j;
+    }
+    if (sum == i)
+        cout << i << endl;
+}
+```

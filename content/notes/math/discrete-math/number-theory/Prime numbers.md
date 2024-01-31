@@ -12,4 +12,4 @@ tags:
 2. $0$ and $1$ are not prime numbers
 3. No primer number $> 5$ ends in a $5$
 
-$1$ is not a prime number, because it could be included into the prime factorization of any number multiple times, making the product of the prime factors not unique, thus "breaking" the [[notes/math/discrete-math/number-theory/Fundamental Theorem of Arithmatics (FTA)]].
+$1$ is not a prime number, because it could be included into the prime factorization of any number multiple times, making the product of the prime factors not unique, thus "breaking" the [[notes/math/discrete-math/number-theory/Fundamental Theorem of Arithmatics (FTA)|FTA]].
