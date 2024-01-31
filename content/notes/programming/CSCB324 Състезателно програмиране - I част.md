@@ -1,6 +1,6 @@
 ---
 title: CSCB324 Състезателно програмиране - I част
-enableToc: false
+enableToc: true
 tags: 
 - fundamentals
 - programming
