@@ -28,14 +28,16 @@ $a = sup\{x\}$, когато $a$ е най-малката горна грани�
 
 $$
 \begin{align}
-& log_aa^x = x & \ln e^x = x && a^{log_ax} = x && e^{\ln x} = x  \\ \\
-& log_ax^r = rlog_ax & \ln x^a = a\ln x && log_axy = log_ax+log_ay  \\ \\
-& \ln xy = \ln x + \ln y &  log_a\frac{x}{y} = log_ax - log_ay && \ln \frac{x}{y} = \ln x - \ln y
+& log_aa^x = x & \ln e^x = x  \\ \\
+& a^{log_ax} = x & e^{\ln x} = x  \\ \\
+& log_ax^r = rlog_ax & \ln x^a = a\ln x \\ \\
+& log_axy = log_ax+log_ay  & \ln xy = \ln x + \ln y \\ \\
+&  log_a\frac{x}{y} = log_ax - log_ay  & \ln \frac{x}{y} = \ln x - \ln y
 \end{align}
 $$
 ### Основни елементарни функции
 
-$$cos(\alpha) \text{ и } sin(\alpha) \text{ имат } D_f = \mathbb{R}$ и $W_f = [0; 1]$$
+$$cos(\alpha) \text{ и } sin(\alpha) \text{ имат } D_f = \mathbb{R} \text{ и }  W_f = [0; 1]$$
 $$
 \frac{\pi}{6} = 30\degree, \frac{3\pi}{4} = 135\degree, \frac{\pi}{2} = 90\degree, \dots
 $$
@@ -49,15 +51,28 @@ $$
 **Свойства и равенства**:
 
 $$
-\begin{align}
-& cos^2(\alpha) + sin^2(\alpha) = 1 \\
-& cos(2\alpha) = cos^2(\alpha) - sin^2(\alpha) \\
-& 1 + tan^2(\alpha) = sec^2(\alpha) & 1 + ctg^2(\alpha) = cosec^2(\alpha) \\
-& sin(\alpha + \beta) = sin(\alpha)cos(\beta) + cos(\alpha)sin(\beta)
-& cos(\alpha + \beta) = cos(\alpha)cos(\beta) - sin(\alpha)sin(\beta) \\
-\\
-&sin(\frac{\alpha}{2}) = \pm \sqrt{\frac{1 - cos(\alpha)}{2}} & cos(\frac{\alpha}{2}) = \pm \sqrt{\frac{1 + cos(\alpha)}{2}}
-\end{align}
+cos^2(\alpha) + sin^2(\alpha) = 1
+$$
+$$
+cos(2\alpha) = cos^2(\alpha) - sin^2(\alpha)
+$$
+$$
+1 + tan^2(\alpha) = sec^2(\alpha)
+$$
+$$
+1 + ctg^2(\alpha) = cosec^2(\alpha)
+$$
+$$
+sin(\alpha + \beta) = sin(\alpha)cos(\beta) + cos(\alpha)sin(\beta)
+$$
+$$
+cos(\alpha + \beta) = cos(\alpha)cos(\beta) - sin(\alpha)sin(\beta)
+$$
+$$
+sin(\frac{\alpha}{2}) = \pm \sqrt{\frac{1 - cos(\alpha)}{2}}
+$$
+$$
+cos(\frac{\alpha}{2}) = \pm \sqrt{\frac{1 + cos(\alpha)}{2}}
 $$
 
 **Допълнителни тригонометрични функции:**
@@ -117,11 +132,31 @@ $$
 
 $$
 \begin{align}
-& \lim_{n\to\infty}\frac{1}{n^s} = 0, s > 0, s \in \mathbb{R} &\lim_{n\to\infty}q^n = 0, |q| < 1 \\ \\
+& \lim_{n\to\infty}\frac{1}{n^s} = 0, s > 0, s \in \mathbb{R} &&lim_{n\to\infty}q^n = 0, |q| < 1
+\end{align}
+$$
+$$
+\begin{align}
 & \lim_{n\to\infty}\frac{1}{\ln(n)} = 0 & \lim_{n\to\infty}\sqrt[n]{n} = 1 \\ \\
-& \lim_{n\to\infty}\sqrt[n]{a} = 1, a \in \mathbb{R} & \lim_{n\to\infty}(1 + \frac{r}{n})^{\frac{1}{n}} = e^r \\ \\
-& \lim_{n\to\infty}\frac{n!}{n^n} = 0 & \lim_{n\to\infty}\frac{a^n}{n!} = 0, a \in \mathbb{R}, a > 0 \\ \\
-& \lim_{n\to\infty}\frac{n^k}{a^n} = 0, a > 1, a \in \mathbb{R} & \lim_{n\to\infty}\frac{\ln(n)}{n} = 0 \\ \\
+\end{align}
+$$
+$$
+\begin{align}
+&\lim_{n\to\infty}\sqrt[n]{a} = 1, a \in \mathbb{R} & \lim_{n\to\infty}(1 + \frac{r}{n})^{\frac{1}{n}} = e^r \\ \\
+\end{align}
+$$
+$$
+\begin{align}
+& \lim_{n\to\infty}\frac{n!}{n^n} = 0 & \lim_{n\to\infty}\frac{a^n}{n!} = 0, a \in \mathbb{R}, a > 0
+\end{align}
+$$
+$$
+\begin{align}
+& \lim_{n\to\infty}\frac{n^k}{a^n} = 0, a > 1, a \in \mathbb{R} & \lim_{n\to\infty}\frac{\ln(n)}{n} = 0
+\end{align}
+$$
+$$
+\begin{align}
 & \lim_{n\to\infty}(1 + \frac{1}{n})^n = e
 \end{align}
 $$
@@ -138,16 +173,29 @@ $$
 #### Свойства на границите
 
 $$
-\begin{align}
-& \lim_{n\to\infty}(a_n+b_n)= \lim_{n\to\infty}a_n + \lim_{n\to\infty}b_n \\ \\
-& \lim_{n\to\infty}(a_n-b_n)= \lim_{n\to\infty}a_n - \lim_{n\to\infty}b_n \\ \\
-& \lim_{n\to\infty}(\lambda a_n)= \lambda\lim_{n\to\infty}a_n & \lambda = const \\ \\
-& \lim_{n\to\infty}(a_nb_n) = \lim_{n\to\infty}a_n\lim_{n\to\infty}b_n \\ \\
-& \lim_{n\to\infty}(\frac{a_n}{b_n}) = \frac{\lim_{n\to\infty}a_n}{\lim_{n\to\infty}b_n} & \iff \lim_{n\to\infty}b_n \neq 0 \\ \\
-& \lim_{n\to\infty}a_n = \infty \implies\lim_{n\to\infty}\frac{1}{a_n} = 0 \\ \\
-& \lim_{n\to\infty}a_n = 0 & a_n > 0 \implies \lim_{n\to\infty}\frac{1}{a_n} = +\infty \\ \\
-& \lim_{n\to\infty}a_n = 0 & a_n < 0 \implies \lim_{n\to\infty}\frac{1}{a_n} = - \infty
-\end {align}
+\lim_{n\to\infty}(a_n+b_n)= \lim_{n\to\infty}a_n + \lim_{n\to\infty}b_n
+$$
+
+$$
+\lim_{n\to\infty}(a_n-b_n)= \lim_{n\to\infty}a_n - \lim_{n\to\infty}b_n
+$$
+$$
+\lim_{n\to\infty}(\lambda a_n)= \lambda\lim_{n\to\infty}a_n \text{, } \lambda = const
+$$
+$$
+\lim_{n\to\infty}(a_nb_n) = \lim_{n\to\infty}a_n\lim_{n\to\infty}b_n
+$$
+$$
+\lim_{n\to\infty}(\frac{a_n}{b_n}) = \frac{\lim_{n\to\infty}a_n}{\lim_{n\to\infty}b_n} \iff \lim_{n\to\infty}b_n \neq 0
+$$
+$$
+\lim_{n\to\infty}a_n = \infty \implies\lim_{n\to\infty}\frac{1}{a_n} = 0
+$$
+$$
+\lim_{n\to\infty}a_n = 0 \text{, } a_n > 0 \implies \lim_{n\to\infty}\frac{1}{a_n} = +\infty
+$$
+$$
+\lim_{n\to\infty}a_n = 0 \text{, } a_n < 0 \implies \lim_{n\to\infty}\frac{1}{a_n} = - \infty
 $$
 
 ## Непрекъснати функции
@@ -263,7 +311,8 @@ $$
 \begin{align}
 & f(x) = x^3 - 9x^2 + 7x & f'(x) = 3x^2 - 18x + 7 && f''(x) =6x - 18 & \\ \\
 & 6x-18 = 0 \rightarrow  x = 3 & f(3) = 3^3 - 9(3)^2+7\cdot3=-33
-\end{align}$$
+\end{align}
+$$
 Точка на инфлекция: $(3; -33)$
 
 Ако $f(x)$ има:
@@ -273,10 +322,6 @@ $$
 #### Правило на Лопитал
 
 **Правилото на Лопитал** може да се използва за намиране на граници, когато метода "заместване" не е приложим (напр. знаменателя е 0).
-
-
-
-
 
 $$
 \lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}
@@ -312,24 +357,84 @@ $$
 #### Таблични интеграли
 
 $$
-\begin{align}
-& \int 0 dx = C \\ \\
-& \int 1 dx = x + C \\ \\
-& \int x^s = \frac{1}{1+s}x^{1+s} + C, s \neq -1 \\ \\
-& \int \frac{1}{x}dx = \ln |x| + C, x \neq 0 \\ \\
-& \int a^x = \frac{a^x}{\ln a} + C \\ \\
-& \int e^xdx = e^x + C \\ \\
-& \int sin(x)dx = -cos(x) + C \\ \\
-& \int cos(x)dx = sin(x) + C \\ \\
-& \int \frac{1}{cos^2x}dx = tgx + C \\ \\
-& \int \frac{1}{sin^2x}dx = -cotgx + C \\ \\
-& \int \frac{1}{\sqrt{a^2 - x^2}}dx = arcsin\frac{x}{a} + C, a > 0 \\ \\
-& \int \frac{1}{\sqrt{a^2 - x^2}}dx = -arccos\frac{x}{a} + C, a > 0 \\ \\
-& \int \frac{1}{x^2 + a^2}dx = \frac{1}{a}arctg\frac{x}{a} + C, a > 0 \\ \\
-& \int \frac{1}{x^2 + a^2}dx = \frac{1}{a}arccotg\frac{x}{a} + C, a > 0 \\ \\
-& \int \frac{1}{\sqrt{x^2 + a}}dx = \ln \bigg|x+\sqrt{x^2 + a}\bigg| + C, a \neq 0 \\ \\
-& \int \frac{1}{a^2-x^2}dx = \frac{1}{2a}\ln \bigg|\frac{a+x}{a-x}\bigg| + C, (a > 0, x \neq \pm a)
-\end{align}
+\begin{flalign}
+& \int 0 dx = C &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int 1 dx = x + C &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int x^s = \frac{1}{1+s}x^{1+s} + C, s \neq -1 &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int \frac{1}{x}dx = \ln |x| + C, x \neq 0 &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int a^x = \frac{a^x}{\ln a} + C &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int e^xdx = e^x + C &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int sin(x)dx = -cos(x) + C &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int cos(x)dx = sin(x) + C &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int \frac{1}{cos^2x}dx = tgx + C &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int \frac{1}{sin^2x}dx = -cotgx + C &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int \frac{1}{\sqrt{a^2 - x^2}}dx = arcsin\frac{x}{a} + C, a > 0 &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int \frac{1}{\sqrt{a^2 - x^2}}dx = -arccos\frac{x}{a} + C, a > 0 &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int \frac{1}{x^2 + a^2}dx = \frac{1}{a}arctg\frac{x}{a} + C, a > 0 &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int \frac{1}{x^2 + a^2}dx = \frac{1}{a}arccotg\frac{x}{a} + C, a > 0 &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int \frac{1}{\sqrt{x^2 + a}}dx = \ln \bigg|x+\sqrt{x^2 + a}\bigg| + C, a \neq 0 &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int \frac{1}{a^2-x^2}dx = \frac{1}{2a}\ln \bigg|\frac{a+x}{a-x}\bigg| + C, (a > 0, x \neq \pm a) &&
+\end{flalign}
 $$
 
 #### Основни свойства
@@ -357,27 +462,46 @@ dx = \frac{1}{a}(ax\pmb), a, b = const., a \neq 0; dx = d(x\pmb); adx = d(ax)
 $$
 защото: $(ax \pm b)' = a(x)' \pm (b)' = a$
 
-$$x^sdx = \frac{1}{1+s}x^{1+s}, s \neq -1$$
 $$
-\frac{1}{x}dx = d(\ln|x|)
+\begin{flalign}
+& x^sdx = \frac{1}{1+s}x^{1+s}, s \neq -1 &&
+\end{flalign}
 $$
+
 $$
-a^xdx=\frac{1}{\ln a}d(a^x)
-$$
-$$
-sin(x)dx = (-1)d(cos(x))
-$$
-$$
-cos(x)dx = d(sin(x))
+\begin{flalign}
+& \frac{1}{x}dx = d(\ln|x|) &&
+\end{flalign}
 $$
 $$
-\frac{1}{cos^2x}dx = d(tg(x))
+\begin{flalign}
+& a^xdx=\frac{1}{\ln a}d(a^x) &&
+\end{flalign}
 $$
 $$
-\frac{1}{sin^2x}dx = (-1)d(cotg(x))
+\begin{flalign}
+& sin(x)dx = (-1)d(cos(x)) &&
+\end{flalign}
 $$
 $$
-\int f(x)dx = F(x) + C
+\begin{flalign}
+& cos(x)dx = d(sin(x)) &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \frac{1}{cos^2x}dx = d(tg(x)) &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \frac{1}{sin^2x}dx = (-1)d(cotg(x)) &&
+\end{flalign}
+$$
+$$
+\begin{flalign}
+& \int f(x)dx = F(x) + C &&
+\end{flalign}
 $$
 
 *Забележка*: В бъдеще, вместо $\int \frac{1}{f(x)}$ ще пишем $\int \frac{dx}{f(x)}$
@@ -486,7 +610,8 @@ $$
 $$
 Следователно
 $$
-J_1 = \int \arctan(x)\text{ } dx = x \arctan(x) - \frac{1}{2}\ln(1 + x^2) +C $$
+J_1 = \int \arctan(x)\text{ } dx = x \arctan(x) - \frac{1}{2}\ln(1 + x^2) +C 
+$$
 
 
 
@@ -514,7 +639,8 @@ $$
 $$
 
 В този случай ще използваме означението
-$$\lim_{||p|| \to 0} = \rho(f;p;c) = J$$
+$$\lim_{||p|| \to 0} = \rho(f;p;c) = J
+$$
 
 Функцията $f(x)$ се нарича интегруема върху $[a; b]$, ако съществува границата $\lim_{||p|| \to 0} = \rho(f;p;c) = J$. Числото $J$ се нарича определен (риманов) интеграл на $f(x)$ върху $[a; b]$ и се означава с $\int_a^b f(x) \text{ }dx$
 
@@ -593,31 +719,49 @@ $$
 #### Таблични интеграли
 
 $$
-\int_c^b L dx= L(b -c), L = const.
+\begin{flalign}
+& \int_c^b L dx= L(b -c), L = const.&&
+\end{flalign}
 $$
 $$
-\int_c^bx^sdx = \frac{1}{1+s}(b^{1+s} - c^{1+s}), s\neq-1
+\begin{flalign}
+& \int_c^bx^sdx = \frac{1}{1+s}(b^{1+s} - c^{1+s}), s\neq-1&&
+\end{flalign}
 $$
 $$
-\int_c^b=\frac{1}{x}dx = \ln\bigg(\frac{b}{c}\bigg)
+\begin{flalign}
+& \int_c^b=\frac{1}{x}dx = \ln\bigg(\frac{b}{c}\bigg)&&
+\end{flalign}
 $$
 $$
-\int_c^b\cos(x)dx = \sin(b) - \cos(c)
+\begin{flalign}
+& \int_c^b\cos(x)dx = \sin(b) - \cos(c)&&
+\end{flalign}
 $$
 $$
-\int_c^b \sin(x)dx = -\cos(b) + \cos(c)
+\begin{flalign}
+& \int_c^b \sin(x)dx = -\cos(b) + \cos(c)&&
+\end{flalign}
 $$
 $$
-\int_c^b a^xdx = \frac{1}{\ln a}(a^b - a^c), a \neq 1
+\begin{flalign}
+& \int_c^b a^xdx = \frac{1}{\ln a}(a^b - a^c), a \neq 1&&
+\end{flalign}
 $$
 $$
-\int_c^be^xdx=e^b-e^c
+\begin{flalign}
+& \int_c^be^xdx=e^b-e^c&&
+\end{flalign}
 $$
 $$
-\int_c^b \frac{1}{\cos^2x} dx = \tan(b) - \tan(c)
+\begin{flalign}
+& \int_c^b \frac{1}{\cos^2x} dx = \tan(b) - \tan(c)&&
+\end{flalign}
 $$
 $$
-\int_c^b \frac{1}{\sin^2x}=-\cot(b) + \cot(a)
+\begin{flalign}
+& \int_c^b \frac{1}{\sin^2x}=-\cot(b) + \cot(a) &&
+\end{flalign}
 $$
 
 За произволна константа $a > 0$ са в сила следните четири интеграла:
