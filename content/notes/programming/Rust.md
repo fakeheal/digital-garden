@@ -1,9 +1,3 @@
----
-title: Rust
-tags:
-  - programming
-  - rust
----
 ## Memory
 ### Stack 
 
