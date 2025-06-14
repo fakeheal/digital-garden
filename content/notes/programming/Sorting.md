@@ -67,9 +67,13 @@ int main() {
 
 ## Insertion sort
 
+^b2e209
+
 Time complexity: $O(n^2)$
 
-Fast for small input sizes and is performed _in place_.
+Fast for small input sizes and is performed _in place_. It may have different running time on two sequences of the same size. Depends on the degree to which the two sequences are sorted. 
+
+**Best case** occurs if the input array is already sorted, it runs for linear time.
 
 ![Визуализация на Insertion sort](notes/assets/insertion-sort-visualisation.gif#invert_B)
 
@@ -96,7 +100,7 @@ int main() {
 
 Time complexity: $O(n\cdot\log{n})$
 
-Better for bigger input sizes & is not performed _in place_.
+Better for bigger input sizes & is not performed _in place_. Closely follows the "Divide-and-conquer" paradigm.
 
 ```cpp
 #include <iostream>
@@ -152,4 +156,25 @@ int main() {
 }
 ```
 
+## Heapsort
+
+Time complexity: $O(n\cdot\log{n})$
+
+In place algorithm that uses the **heap** data structure.
+
+## Quick sort
+
+Time complexity: $O(n^2)$
+
+Sorts n real numbers in $\Theta(n \cdot \lg n)$ expected time and $\Theta(n^2)$ worst time, when the pivot choice consistently results in unbalanced partitions. (o mitigate this, randomised pivot selection is commonly used.) It is in place and generally outperforms heapsort. Like insertion sort, has tight code, small hidden constant factor
+
+## Counting sort
+
+Time complexity: $O(n+k)$
+
+Assumes that sorting numbers are in the set {0, 1, . . . , k}. Using array indexing for determining relative order, $\Theta(k + n)$ time. It is a stable algorithm.
+
+## Radix sort
+
+## Bucket sort
 
