@@ -4,7 +4,7 @@ enableToc: true
 tags: 
 - fundamentals
 - programming
----  
+---
 > [!info]  
 >   
 > Записки от лекциите по ["CSCB324 Състезателно програмиране - I част"](https://ecatalog.nbu.bg/default.asp?V_Year=2018&YSem=3&Spec_ID=&Mod_ID=&PageShow=coursepresent&P_Menu=courses_part1&Fac_ID=3&M_PHD=&P_ID=832&TabIndex=&K_ID=48830&K_TypeID=26&l=0), водени от доц. Николай Киров, д-р.  
