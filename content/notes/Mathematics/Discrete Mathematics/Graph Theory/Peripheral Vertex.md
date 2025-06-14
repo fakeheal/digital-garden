@@ -1,9 +1,0 @@
----
-title: Peripheral Vertex
-enableToc: false
-tags: 
-- discrete-mathematics
-- graph-theory
-- definition
----
-If the [[notes/Mathematics/Discrete Mathematics/Graph Theory/Eccentricity (Vertex)|eccentricity]] of a [[notes/Mathematics/Discrete Mathematics/Graph Theory/Vertex|vertex]] $v$ in [[notes/Mathematics/Discrete Mathematics/Graph Theory/Graph|graph]] $G$ equals the [[notes/Mathematics/Discrete Mathematics/Graph Theory/Diameter (Graph)|diameter]] of $G$, then the $v$ is a **peripheral vertex** of $G$.

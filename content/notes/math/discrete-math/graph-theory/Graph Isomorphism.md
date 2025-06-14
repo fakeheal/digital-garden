@@ -20,4 +20,4 @@ In case when the bijection is a maping of a graph onto itself, i.e. when $G$ and
 
 Graph isomorphism is an [[notes/math/discrete-math/set-theory/Equivalence Relation|equivalence relation]] on graphs and as such it partitions the [[notes/math/discrete-math/set-theory/Class (Set Theory)|class]] of all graphs into equivalance classes.
 
-![graph isomorphism diagram](notes/assets/graph-isomorphism.png#invert_W_C)
+![graph isomorphism diagram](notes/assets/graph-isomorphism.png#invert_B_C)
