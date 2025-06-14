@@ -1,0 +1,40 @@
+---
+title: CSCB039 Алгоритми и програмиране
+enableToc: true
+tags: 
+- fundamentals
+- programming
+---
+- **Asymptotic Notation**: O(n), Θ(n), Ω(n) to describe time complexity.
+- **Complexity Analysis**: Analyze worst-case, average-case, and best-case scenarios.
+	- **Big O Notation**: Upper bound.
+	- **Big Ω Notation**: Lower bound.
+	- **Big Θ Notation**: Tight bound.
+- **Heapsort**: O(n log n) time, in-place, not stable.
+- **Quicksort**: Average O(n log n), worst-case O(n^2), in-place, not stable.
+- **Linear Time Sorting**: Counting sort, radix sort, bucket sort.
+- **Median and Order Statistics**: Selection algorithms (Quickselect).
+- **Dynamic Programming (DP)**: Break problems into subproblems, solve each once, store their solutions. (examples: Fibonacci sequence, Knapsack problem, Longest Common Subsequence (LCS))
+- **Greedy Algorithms**: Make locally optimal choices to find a global optimum (examples: Activity selection, Huffman coding, Kruskal’s and Prim’s algorithms)
+- **Graph Representations**: Adjacency matrix, adjacency list.
+- **Breadth-First Search (BFS)**: O(V + E), finds shortest path in unweighted graphs.
+- **Depth-First Search (DFS)**: O(V + E), used for cycle detection, topological sorting.
+- **Eulerian Cycle**: Visits every edge exactly once. Exists if all vertices have even degree.
+- **Hamiltonian Cycle**: Visits every vertex exactly once. NP-complete problem.
+- **Minimum Spanning Tree (MST)**: Subset of edges forming a tree including all vertices with minimum total weight.
+- **Kruskal's Algorithm**: Greedy, sorts edges, uses Union-Find, O(E log E).
+- **Prim's Algorithm**: MST, Greedy, uses priority queue, O(E log V).
+- **Shortest Path Algorithms**: Find shortest paths from a source to all vertices.
+- **Bellman-Ford Algorithm**: Handles negative weights, O(VE), detects negative cycles.
+- **Dijkstra's Algorithm**: Single-source shortest paths in graphs with non-negative weights, uses priority queue, O(V^2) or O(E + V log V) with Fibonacci heap.
+- **All-Pairs Shortest Path Algorithms**:
+    - **Floyd-Warshall Algorithm**: Dynamic programming, O(V^3), handles negative weights.
+    - **Johnson's Algorithm**: Uses Bellman-Ford and Dijkstra, O(V^2 log V + VE).
+- **Network Flow**: Maximize flow in a flow network.
+- **Ford-Fulkerson Method**: Uses augmenting paths, O(|f*| |E|) (f\* is maximum flow in the network)
+- **Edmonds-Karp Algorithm**: Implementation of Ford-Fulkerson using BFS, O(VE^2).
+- **Bipartite Graphs**: Graphs whose vertices can be divided into two disjoint sets.
+- **Bipartite Matching**: Find the maximum matching.
+- **Hungarian Algorithm**: For finding maximum bipartite matching, O(V^3).
+- **Relation to Combinatorial Optimization**: Problems like maximum flow can be modeled as bipartite matching.
+- **Hopcroft-Karp**: find the maximum matching in a bipartite graph, O(sqrt(V) |E|)
