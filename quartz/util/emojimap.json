@@ -1374,7 +1374,8 @@
     "U+E0063": "flag: Scotland",
     "U+E0074": "flag: Scotland",
     "U+E0077": "flag: Wales",
-    "U+E006C": "flag: Wales"
+    "U+E006C": "flag: Wales",
+    "U+1F1E7-U+1F1EC": "flag: Bulgaria"
   },
   "nameToBase64": {
     "grinning face": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAh1BMVEVHcEz/zE3/zE3/zE3/zE3/zE3/zE3/zE3/zE3/zE3/zE3/zE3/zE3/zE1mRQDPojXZqjqziSd5Vgr1xEhwTQWfeB2zooCMZxPZ0b/su0OMdED18++DXg6DaDDisz/i3M+Wf1CWbxjs6N/////GmTC8kSupgCK8ro/GuZ/Pxa9wURCfi2B5XCBjMO3CAAAADXRSTlMA36/PgFCPIJ/vQL9g4e8akwAAAkFJREFUeF7tmNmu4jAMhmlLSwK1uy/sy1mXef/nmyH0RCImTfDM4Wq+GyQj/fJSy7EnI8zSZBHAQLBI0tmEQSwCIAQivk9llkiwIBN/v+YhjBLO/bwR4ER4eDWV4IGcutyJwJNo1KlYgjcyHgkL7sIanoA7ET46fCUBDIQrP/w8xcDEqN1MAhN53XoRsIlIgrhMSWDs4CyV538Dc/hL5oNQCCZZiVhm4GsPhwxRHVRkvna4ZCkBg6pGRV057JpECZGSFThQOOwaebs5Njiwcdk18c3ao2bETr+AYERo6bBrAlUzjke0bum/EUpJ8XnJhmSyAGCUn7BQuWZ8kDTboGC3iEYJ8ZuWCvHhC/0X2uXgpspJ2xrNX20QsTwW2RIsLLPiWCJiV123v9EiDWo23WvxkiuW6ueleO02qGmMFklIg/tiNG16FRlbKJ3MiNCpbw9btPLr0PYnJWQMpMAMbbt++sO+f2vblWK7utC2b/3+/N96awoF5uAvz0pfTw6+zjqlOf5jUjXlkwXtDzbk3SbpUP7s7Tr9Jx3cko7sEi8cTrdlTgdEJJEl9BHxjN+s3kmA6/cVfvN8XTNFaI4KrdV+7L9F9h/toEIHSXjrobVDL3bmQ0shaHB2aGDC8hht0Elje2lP4S6lxr5FRGSkWqCDNhpbIbIardQZXSHsS011RAtHY17HrjUr75CCXe5eRwUZA40RYN3suCtkXnQlKsquyH9uqRU/s67zDwgPOGkwjiwPOPswDlHs09hDj3X88+FvXybnvMjgRHsAAAAASUVORK5CYII=",

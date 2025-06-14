@@ -1,5 +1,12 @@
 @use "./base.scss";
 
+.poetry {
+  border: none;
+  padding: 0;
+  font-family: Caveat, cursive;
+  font-size: 1.4rem;
+}
+
 // put your custom CSS here!
 img {
   display: block;
@@ -42,4 +49,13 @@ img {
  */
 img[alt="factor tree of 42"] {
   width: 200px;
+}
+
+
+.page > #quartz-body .sidebar {
+  padding-top: 2rem;
+}
+
+.page > #quartz-body .page-header {
+  margin-top: 2rem;
 }
