@@ -68,7 +68,7 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/pages-artifact@v3
         with:
           path: public
 
